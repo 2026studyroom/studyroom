@@ -802,6 +802,79 @@ const RESOURCE_CATALOG = {
     title: "한국은행의 기후변화 대응",
     url: "https://www.bok.or.kr/portal/main/contents.do?menuNo=201706",
     desc: "연구논문이 아닌 한국은행의 현재 기후리스크 대응체계와 정책 방향을 확인할 수 있는 공식 안내페이지입니다."
+  },
+
+  koditGuaranteeReviewCurrent: {
+    org: "신용보증기금", date: "현재 제도", kind: "공식 심사기준",
+    title: "보증심사 및 승인",
+    url: "https://www.kodit.co.kr/kodit/cm/cntnts/cntntsView.do?cntntsId=11069&mi=2528",
+    desc: "신용조사를 바탕으로 사업성, 미래성장성, 기업가치, 기술력, 기업가정신 등을 고려해 보증지원 여부와 보증금액을 결정하는 현행 심사기준을 직접 설명합니다."
+  },
+  koditInfrastructureGuaranteeCurrent: {
+    org: "신용보증기금", date: "현재 제도", kind: "공식 업무절차",
+    title: "산업기반신용보증 보증이용절차",
+    url: "https://www.kodit.co.kr/kodit/cm/cntnts/cntntsView.do?cntntsId=11082&mi=2546",
+    desc: "프로젝트의 기업현황·사업내용·자금조달과 운용, 사업전망을 조사하고 보증심사에서 사업성평가·현금흐름 분석·지원 타당성을 판단하는 절차를 제시합니다."
+  },
+  koditGuaranteeTypesCurrent: {
+    org: "신용보증기금", date: "현재 제도", kind: "공식 제도 안내",
+    title: "신용보증의 종류 — 대출보증·시설자금",
+    url: "https://www.kodit.or.kr/kodit/cm/cntnts/cntntsView.do?cntntsId=11184&mi=2522",
+    desc: "은행의 운전·시설자금 대출에 대해 신보가 어떤 채무를 보증하는지 현행 제도 구조를 확인할 수 있습니다."
+  },
+  bokBaselLecture26: {
+    org: "한국은행", date: "2026.05.08", kind: "한은금요강좌",
+    title: "한국은행 대출제도의 이해 — 바젤Ⅲ 유동성 규제와 LCR",
+    url: "https://www.bok.or.kr/portal/bbs/B0000217/view.do?depth=200144&menuNo=200144&nttId=10097855&oldMenuNo=201151&programType=multiCont&relate=Y",
+    desc: "바젤Ⅲ 규제체계와 LCR의 의미, 국내은행에 적용되는 유동성 규제의 기본 구조를 2026년 기준으로 설명합니다."
+  },
+  kisdiDeepfakePolitics24: {
+    org: "정보통신정책연구원", date: "2024", kind: "정책동향",
+    title: "'슈퍼 선거의 해' 딥페이크 정치 콘텐츠 악용 사례 및 규제 논의",
+    url: "https://www.kisdi.re.kr/report/view.do?arrMasterId=4334696&artId=1762156&key=m2102058837181&masterId=4334696",
+    desc: "딥페이크 정치 콘텐츠가 유권자 판단과 선거에 미치는 영향, 공직선거법 개정과 플랫폼 자율규제를 정리합니다."
+  },
+  kisdiAIGovernance25: {
+    org: "정보통신정책연구원", date: "2025", kind: "정책연구",
+    title: "글로벌 AI 안전 거버넌스의 다극화와 한국의 전략적 대응 방향",
+    url: "https://www.kisdi.re.kr/report/fileView.do?arrMasterId=4333446&id=1873016&key=m2101113025377",
+    desc: "선거 개입·금융사기·딥페이크 등 생성형 AI의 현실적 위험과 AI 안전 거버넌스의 제도화 방향을 다룹니다."
+  },
+  kcmiGuidance26: {
+    org: "자본시장연구원", date: "2026.04.20", kind: "자본시장포커스",
+    title: "전망공시의 현황과 활성화를 위한 과제",
+    url: "https://www.kcmi.re.kr/publications/pub_detail_view?cno=6756&syear=2026&zcd=002001016&zno=1911",
+    desc: "영업실적 전망공시가 정보비대칭 완화·가격발견·자본비용에 미치는 효과와 면책요건·정정공시 등 활성화 과제를 직접 분석합니다."
+  },
+  bokOverseasFx26: {
+    org: "한국은행", date: "2026.06.18", kind: "BOK 이슈노트",
+    title: "해외투자와 투자소득이 환율에 미치는 영향",
+    url: "https://www.bok.or.kr/portal/bbs/P0002353/view.do?depth=200433&menuNo=200433&nttId=10098543&programType=newsData&relate=Y",
+    desc: "최근 해외증권투자 급증과 투자소득이 외환수급 및 원/달러 환율에 미치는 영향을 2026년 자료로 직접 분석합니다."
+  },
+  kcmiCapitalIssues26: {
+    org: "자본시장연구원", date: "2026.02.04", kind: "자본시장포커스",
+    title: "2026년 자본시장 주요 이슈",
+    url: "https://www.kcmi.re.kr/publications/pub_detail_view?cno=6713&syear=2026&zcd=002001016&zno=1897",
+    desc: "중소·성장기업의 자금조달 제약, 혁신성장기업 지원, 공시·IR 강화와 시장 접근성 확대를 2026년 핵심 과제로 제시합니다."
+  },
+  kcmiKosdaq26: {
+    org: "자본시장연구원", date: "2026.06.29", kind: "자본시장포커스",
+    title: "코스닥시장 상장종목의 분포상 이질성과 향후 과제",
+    url: "https://www.kcmi.re.kr/publications/pub_detail_view?cno=6800&syear=2026&zcd=002001016&zno=1922",
+    desc: "코스닥의 중소·벤처기업 자금조달과 혁신기업 성장 기능, 성장성·재무건전성의 이질성과 향후 시장과제를 분석합니다."
+  },
+  kcmiSafeAsset26: {
+    org: "자본시장연구원", date: "2026.06.15", kind: "자본시장포커스",
+    title: "2026년 하반기 금융시장 전망과 자산배분 전략",
+    url: "https://www.kcmi.re.kr/publications/pub_detail_view?cno=6790&syear=2026&zcd=002001016&zno=1920",
+    desc: "지정학적 위험, 달러·국채·금리 경로와 자산배분을 다뤄 최근 금융시장 위험회피·안전자산 선호를 이해하는 데 활용할 수 있습니다."
+  },
+  bokReserveLecture26: {
+    org: "한국은행", date: "2026.06.05", kind: "한은금요강좌",
+    title: "외환보유액 운용의 이해와 향후 과제",
+    url: "https://www.bok.or.kr/portal/bbs/B0000217/view.do?depth=200144&menuNo=200144&nttId=10098414&programType=multiCont&relate=Y",
+    desc: "국채·정부기관채 등 안전자산의 역할과 외환보유액의 안전성·유동성·수익성 원칙을 현재 기준으로 설명합니다."
   }
 };
 
@@ -889,56 +962,56 @@ const TOPIC_REPORTS = {
   "bok-2022-housing": ["bokHousingAge26", "bokFsr26"],
   "bok-2022-polarization": ["bokPolarization26", "bokPopulationConsumption25"],
   "bok-2023-region": ["bokRegionInheritance26", "bokRegion26"],
-  "bok-2024-ai-democracy": ["oecdAICitizen26", "oecdFactsNotFakes24", "kisdiElectionAI"],
+  "bok-2024-ai-democracy": ["kisdiDeepfakePolitics24", "kisdiAIGovernance25", "kisdiAIProtect25"],
   "bok-2022-inflation": ["bokMonetary26", "kcmiInflation26", "kdiOutlook26"],
   "bok-2023-household-debt": ["bokFsr26", "bokHousehold26", "kdiHouseholdDemo25"],
-  "bok-2023-bankrun": ["bokFsr26", "kdicBankrun24", "kdicBankResolution24"],
-  "bok-2024-aging-business": ["bokEmployment25", "bokPopulationConsumption25", "pwcInsuranceAging24"],
+  "bok-2023-bankrun": ["kdicBankrun24", "kdicBankResolution24", "bokFsr26"],
+  "bok-2024-aging-business": ["bokEmployment25", "bokPopulationConsumption25"],
   "bok-2024-climate": ["bokClimateReal24", "bokFsr26", "bokClimateStrategyCurrent"],
 
   // 금융감독원 기출
   "fss-2025-carbon-tax": ["kdiCarbonTax", "bokClimateReal24", "bokClimateStrategyCurrent"],
-  "fss-basel3": ["bisBasel26", "bokFsr24"],
+  "fss-basel3": ["bokFsr24", "bokBaselLecture26"],
 
   // 한국거래소 기출
   "krx-2019-ev": ["motieEVBattery25", "motieAutoExport26", "keximIndustry26"],
   "krx-2019-export": ["kdiTradeStructure25", "keximIndustry26", "kdiOutlook26"],
   "krx-2020-trade-war": ["kiepUSChina25", "kiepTariff25", "kiepWorld26"],
   "krx-2020-selfemployed": ["bokSelfEmployed26", "koditClosure24", "kdiOutlook26"],
-  "krx-2021-women": ["bokEmployment25", "kdiWomen24", "pwcWomen24"],
+  "krx-2021-women": ["kdiWomen24", "bokEmployment25"],
   "krx-2022-industry4": ["kdiAI26", "bokAI26", "kisdiMediaAI24"],
-  "krx-2022-fakenews": ["oecdFactsNotFakes24", "kisdiAIContent26", "kisdiElectionAI"],
+  "krx-2022-fakenews": ["kisdiPlatform26", "kisdiDeepfakePolitics24", "kisdiAIContent26"],
   "krx-2023-crypto": ["fscCryptoProtection24", "bokStablecoin25", "kcmiCrossCrypto26"],
-  "krx-2023-virtualhuman": ["kisdiMediaAI24", "kisdiAIProtect25", "oecdAICitizen26"],
+  "krx-2023-virtualhuman": ["kisdiMediaAI24", "kisdiAIProtect25"],
   "krx-2024-shortselling": ["fscShort25", "fscShortImprove24"],
   "krx-2024-valueup": ["kcmiValueup26", "fscESGFinal26", "fscValueup24"],
   "krx-2025-discount": ["kcmiValueup26", "kcmiGovDisclosure26", "kcmiValueup24"],
   "krx-2025-treasury": ["kcmiTreasuryLaw26", "kcmiTreasury24"],
 
   // 신용보증기금 기출
-  "kodit-2025-project": ["koditFacilityRisk24", "koditCreditModel"],
+  "kodit-2025-project": ["koditGuaranteeReviewCurrent", "koditInfrastructureGuaranteeCurrent", "koditFacilityRisk24"],
   "kodit-2025-tariff": ["kiepTariff25", "kiepUSChina25", "keximIndustry26"],
-  "kodit-2025-intrapreneur": ["koditPlan26", "wefPublicEntrepreneur25"],
-  "kodit-rates-sme": ["koditClosure24", "koditCreditModel", "koditPlan26"],
+  "kodit-2025-intrapreneur": ["koditPlan26"],
+  "kodit-rates-sme": ["koditClosure24", "koditPlan26"],
   "kodit-insolvency": ["koditCreditModel", "koditStartupDefault24", "koditFacilityRisk24"],
 
   // 예금보험공사·무역보험공사·산업은행 기출
   "kdic-systemic": ["bokFsr26", "kdicFedTightening26"],
-  "kdic-safeasset": ["bisSafeAssets25", "bokFsr26"],
+  "kdic-safeasset": ["kcmiSafeAsset26", "bokReserveLecture26"],
   "kdic-social": ["kdicSocial", "kdicLimit25"],
   "ksure-fs": ["ksureCreditFAQ", "ksureCredit", "ksureInsuranceGuide"],
-  "kdb-2020-neuralink": ["unescoNeuro25", "natureNeuro25"],
+  "kdb-2020-neuralink": [],
   "kdb-2020-pandemic": ["kdcaPandemic25", "kdcaCovid26"],
   "kdb-ai-jobs": ["bokAI26", "kdiAI26", "bokAI25"],
 
   // 추천 주제
-  "rec-fx-overseas": ["bokOverseasFx", "bokFxExplain26", "bokFsr26"],
+  "rec-fx-overseas": ["bokOverseasFx26", "bokFxExplain26", "bokFsr26"],
   "rec-tokenization": ["bokTokenization26", "kcmiCrossCrypto26"],
   "rec-stablecoin": ["bokStablecoin25", "kcmiStableFx25", "kcmiStableTreasury25"],
   "rec-household-debt": ["bokFsr26", "bokHousehold26", "kdiHouseholdDemo25"],
   "rec-stock-wealth": ["bokStockWealth26", "bokMonetary26"],
   "rec-governance": ["kcmiValueup26", "kcmiGovernance24", "fscValueup24"],
-  "rec-guidance": ["kcmiValueup26", "fscValueup24"],
+  "rec-guidance": ["kcmiGuidance26"],
   "rec-shortselling-2026": ["fscShort25", "fscShortImprove24"],
   "rec-ai-labor": ["bokAI26", "kdiAI26", "bokAI25"],
   "rec-ai-finance": ["fscAI24", "fscAirgap24", "bokAI26"],
@@ -948,15 +1021,324 @@ const TOPIC_REPORTS = {
   "rec-fx-hours": ["kcmiFxHours26", "bokFxExplain26"],
   "rec-deposit-limit": ["kdicLimit25", "kdicBankResolution24", "kdicBankrun24"],
   "rec-bank-resolution": ["kdicBankResolution24", "kdicBankrun24", "bokFsr26"],
-  "rec-sme-credit": ["koditClosure24", "koditCreditModel", "koditRegionFinance25"],
+  "rec-sme-credit": ["koditClosure24", "koditRegionFinance25", "koditCreditModel"],
   "rec-pcbo": ["koditPcboCurrent", "koditPlan26"],
   "rec-climate": ["bokClimateReal24", "bokFsr26", "bokClimateStrategyCurrent"],
   "rec-carbon-border": ["kiepCbam26", "bokClimateReal24"],
   "rec-lowbirth-region": ["bokRegionInheritance26", "bokRegion26", "bokPopulationConsumption25"],
   "rec-pension": ["naboPension25", "naboPension26", "kdiPension24"],
   "rec-cbdc": ["bokCBDC24", "bokStablecoin25", "kcmiStableTreasury25"],
-  "rec-capitalmarket-growth": ["kcmiSmallIB26", "kcmiUnicorn24"]
+  "rec-capitalmarket-growth": ["kcmiCapitalIssues26", "kcmiKosdaq26"]
 };
+
+
+const SEARCH_SITES = {
+  bok: { label: "한국은행", domain: "bok.or.kr" },
+  kdi: { label: "KDI", domain: "kdi.re.kr" },
+  kdieiec: { label: "KDI 경제교육·정보센터", domain: "eiec.kdi.re.kr" },
+  kcmi: { label: "자본시장연구원", domain: "kcmi.re.kr" },
+  fsc: { label: "금융위원회", domain: "fsc.go.kr" },
+  fss: { label: "금융감독원", domain: "fss.or.kr" },
+  kisdi: { label: "정보통신정책연구원", domain: "kisdi.re.kr" },
+  kodit: { label: "신용보증기금", domain: "kodit.co.kr" },
+  kdic: { label: "예금보험공사", domain: "kdic.or.kr" },
+  ksure: { label: "한국무역보험공사", domain: "ksure.or.kr" },
+  kexim: { label: "한국수출입은행", domain: "koreaexim.go.kr" },
+  kiep: { label: "대외경제정책연구원", domain: "kiep.go.kr" },
+  nabo: { label: "국회예산정책처", domain: "nabo.go.kr" },
+  motie: { label: "산업통상자원부", domain: "motie.go.kr" },
+  moef: { label: "기획재정부", domain: "moef.go.kr" },
+  kdb: { label: "한국산업은행", domain: "kdb.co.kr" },
+  mohw: { label: "보건복지부", domain: "mohw.go.kr" },
+  kdca: { label: "질병관리청", domain: "kdca.go.kr" },
+  krx: { label: "한국거래소", domain: "krx.co.kr" }
+};
+
+const TOPIC_SEARCH_OVERRIDES = {
+  "bok-2020-fomo": {
+    "searchFirst": true,
+    "query": "청년 자산시장 투자심리 FOMO 군집행동 기대심리",
+    "keywords": [
+      "청년 자산시장",
+      "FOMO·군집행동",
+      "기대심리",
+      "2030 투자행태"
+    ],
+    "sites": [
+      "bok",
+      "kcmi",
+      "kdi"
+    ]
+  },
+  "bok-2022-housing": {
+    "searchFirst": false,
+    "query": "주거안정 주택가격 주거비 가계부채 정책",
+    "keywords": [
+      "주거비 부담",
+      "주택가격",
+      "가계부채",
+      "주거안정 정책"
+    ],
+    "sites": [
+      "bok",
+      "kdi",
+      "fsc"
+    ]
+  },
+  "bok-2024-ai-democracy": {
+    "searchFirst": true,
+    "query": "생성형 AI 민주주의 선거 딥페이크 허위정보 알고리즘 거버넌스",
+    "keywords": [
+      "생성형 AI·민주주의",
+      "딥페이크 선거",
+      "허위정보",
+      "AI 거버넌스"
+    ],
+    "sites": [
+      "kisdi",
+      "kdi",
+      "bok"
+    ]
+  },
+  "bok-2022-inflation": {
+    "searchFirst": false,
+    "query": "인플레이션 수요 공급 요인 중앙은행 신뢰 통화정책",
+    "keywords": [
+      "수요·공급 인플레이션",
+      "기대인플레이션",
+      "중앙은행 신뢰",
+      "통화정책"
+    ],
+    "sites": [
+      "bok",
+      "kdi",
+      "kcmi"
+    ]
+  },
+  "bok-2024-aging-business": {
+    "searchFirst": true,
+    "query": "저출산 고령화 기업 인력 HR 소비 시장 기업 대응",
+    "keywords": [
+      "고령화·기업",
+      "인력난·HR",
+      "고령소비",
+      "기업 대응"
+    ],
+    "sites": [
+      "bok",
+      "kdi",
+      "kiep"
+    ]
+  },
+  "fss-basel3": {
+    "searchFirst": true,
+    "query": "바젤Ⅲ 국내은행 자본규제 LCR NSFR 건전성",
+    "keywords": [
+      "바젤Ⅲ",
+      "자본규제",
+      "LCR·NSFR",
+      "은행 건전성"
+    ],
+    "sites": [
+      "fss",
+      "bok",
+      "fsc"
+    ]
+  },
+  "krx-2020-selfemployed": {
+    "searchFirst": true,
+    "query": "자영업자 채무상환능력 소상공인 금융지원 취약차주 정책",
+    "keywords": [
+      "자영업자 부채",
+      "채무상환능력",
+      "소상공인 지원",
+      "취약차주"
+    ],
+    "sites": [
+      "bok",
+      "fsc",
+      "kdi"
+    ]
+  },
+  "krx-2022-industry4": {
+    "searchFirst": true,
+    "query": "디지털 전환 AI 생산성 일자리 산업구조 혁신 정책",
+    "keywords": [
+      "디지털 전환",
+      "AI·생산성",
+      "일자리",
+      "산업구조 변화"
+    ],
+    "sites": [
+      "kdi",
+      "kisdi",
+      "bok"
+    ]
+  },
+  "krx-2023-virtualhuman": {
+    "searchFirst": true,
+    "query": "가상인간 버추얼휴먼 AI 생성인물 윤리 이용자 보호 표시",
+    "keywords": [
+      "가상인간",
+      "버추얼휴먼",
+      "AI 윤리",
+      "생성물 표시"
+    ],
+    "sites": [
+      "kisdi",
+      "kdi"
+    ]
+  },
+  "kodit-2025-project": {
+    "searchFirst": false,
+    "query": "설비투자 보증심사 사업성 현금흐름 DSCR 재무제표 지원 타당성",
+    "keywords": [
+      "설비투자 보증심사",
+      "사업성 평가",
+      "현금흐름·DSCR",
+      "지원 타당성"
+    ],
+    "sites": [
+      "kodit",
+      "kdb",
+      "fsc"
+    ]
+  },
+  "kodit-2025-intrapreneur": {
+    "searchFirst": true,
+    "query": "공공기관 사내벤처 사내 기업가정신 조직혁신 리더십",
+    "keywords": [
+      "공공기관 사내벤처",
+      "사내 기업가정신",
+      "조직혁신",
+      "리더십"
+    ],
+    "sites": [
+      "kdi",
+      "moef",
+      "kodit"
+    ]
+  },
+  "kodit-rates-sme": {
+    "searchFirst": true,
+    "query": "고금리 중소기업 소상공인 이자부담 신용위험 정책금융",
+    "keywords": [
+      "고금리·중소기업",
+      "이자부담",
+      "신용위험",
+      "정책금융"
+    ],
+    "sites": [
+      "kodit",
+      "fsc",
+      "bok"
+    ]
+  },
+  "kdic-systemic": {
+    "searchFirst": false,
+    "query": "금리 인상 가계대출 대손 시스템리스크 전이 금융안정",
+    "keywords": [
+      "가계대출 대손",
+      "금리충격",
+      "시스템리스크",
+      "금융안정"
+    ],
+    "sites": [
+      "bok",
+      "kdic",
+      "fss"
+    ]
+  },
+  "kdic-safeasset": {
+    "searchFirst": true,
+    "query": "안전자산 선호 달러 금 국채 위험회피 금융시장",
+    "keywords": [
+      "안전자산 선호",
+      "위험회피",
+      "달러·금·국채",
+      "지정학 리스크"
+    ],
+    "sites": [
+      "bok",
+      "kcmi"
+    ]
+  },
+  "kdb-2020-neuralink": {
+    "searchFirst": true,
+    "query": "뇌 컴퓨터 인터페이스 BCI 신경기술 윤리 개인정보 자율성",
+    "keywords": [
+      "뇌-컴퓨터 인터페이스",
+      "신경기술",
+      "프라이버시",
+      "자율성·윤리"
+    ],
+    "sites": [
+      "kisdi",
+      "kdi",
+      "mohw"
+    ]
+  },
+  "rec-sme-credit": {
+    "searchFirst": true,
+    "query": "고금리 저성장 중소기업 신용위험 연체 부실 정책금융",
+    "keywords": [
+      "중소기업 신용위험",
+      "고금리·저성장",
+      "연체·부실",
+      "정책금융"
+    ],
+    "sites": [
+      "kodit",
+      "bok",
+      "fsc"
+    ]
+  }
+};
+
+const INSTITUTION_SEARCH_SITES = {
+  "한국은행": ["bok", "kdi", "kcmi"],
+  "금융감독원": ["fss", "fsc", "bok"],
+  "한국거래소": ["kcmi", "krx", "fsc"],
+  "신용보증기금": ["kodit", "fsc", "kdi"],
+  "예금보험공사": ["kdic", "bok", "fsc"],
+  "한국무역보험공사": ["ksure", "kexim", "kiep"],
+  "한국산업은행": ["kdb", "kdi", "fsc"]
+};
+
+const CATEGORY_SEARCH_SITES = {
+  "통화·거시": ["bok", "kdi", "kcmi"],
+  "금융안정": ["bok", "fss", "kdic"],
+  "자본시장": ["kcmi", "fsc", "krx"],
+  "디지털·AI": ["kisdi", "fsc", "kdi"],
+  "통상·산업": ["kiep", "motie", "kexim"],
+  "정책금융": ["kodit", "fsc", "kdi"],
+  "기후·ESG": ["bok", "fsc", "kdi"],
+  "인구·사회": ["kdi", "bok", "nabo"],
+  "주거·가계": ["bok", "kdi", "fsc"],
+  "사회·행동": ["bok", "kcmi", "kdi"],
+  "통화·화폐": ["bok", "kdi"],
+  "금융감독": ["fss", "fsc", "bok"],
+  "조직·경영": ["kdi", "moef"]
+};
+
+function getSearchProfile(topic) {
+  const override = TOPIC_SEARCH_OVERRIDES[topic.id] || {};
+  const fallbackSites = topic.institution
+    ? (INSTITUTION_SEARCH_SITES[topic.institution] || CATEGORY_SEARCH_SITES[topic.category] || ["kdi", "bok"])
+    : (CATEGORY_SEARCH_SITES[topic.category] || ["kdi", "bok"]);
+  return {
+    searchFirst: Boolean(override.searchFirst),
+    query: override.query || [topic.title, ...(topic.keywords || []).slice(0, 2)].join(" "),
+    keywords: override.keywords || (topic.keywords || []).slice(0, 4),
+    sites: override.sites || fallbackSites
+  };
+}
+
+function buildSiteSearchUrl(siteKey, query) {
+  const site = SEARCH_SITES[siteKey];
+  if (!site) return "#";
+  return `https://www.google.com/search?q=${encodeURIComponent(`site:${site.domain} ${query}`)}`;
+}
 
 const state = {
   view: "past",
@@ -1173,23 +1555,18 @@ function sourceTier(resource) {
   const policySources = [
     "한국은행", "금융위원회", "금융감독원", "KDI", "대외경제정책연구원",
     "국회예산정책처", "예금보험공사", "신용보증기금", "한국수출입은행",
-    "한국무역보험공사", "자본시장연구원", "정보통신정책연구원"
+    "한국무역보험공사", "자본시장연구원", "정보통신정책연구원",
+    "산업통상자원부", "기획재정부", "질병관리청", "한국거래소"
   ];
   if (policySources.some(name => org.includes(name))) return "policy";
-  if (["OECD", "BIS", "UNESCO"].some(name => org.includes(name))) return "international";
   return "secondary";
 }
 
-function resourceLabel(resource, index) {
+function resourceLabel(resource, index, searchFirst = false) {
   const tier = sourceTier(resource);
-  if (index === 0) {
-    if (tier === "policy") return "핵심 정책자료";
-    if (tier === "international") return "핵심 국제기구 자료";
-    return "핵심 자료";
-  }
-  if (tier === "policy") return "보완 정책자료";
-  if (tier === "international") return "보완 국제기구 자료";
-  return "심화 자료";
+  if (searchFirst) return tier === "policy" ? "참고 정책자료" : "참고 자료";
+  if (index === 0) return tier === "policy" ? "핵심 정책자료" : "핵심 자료";
+  return tier === "policy" ? "보완 정책자료" : "보완 자료";
 }
 
 function extractResourceYear(resource) {
@@ -1223,23 +1600,57 @@ function isFreshEnough(resource) {
   return year !== null && year >= 2024;
 }
 
+function isAllowedResource(resource) {
+  const org = String(resource.org || "").toLowerCase();
+  const foreignMarkers = ["oecd", "bis /", "unesco", "nature", "world economic forum"];
+  if (foreignMarkers.some(marker => org.includes(marker))) return false;
+
+  const year = extractResourceYear(resource);
+  if (year !== null && year < 2022) return false;
+  if (isResearchMaterial(resource) && (year === null || year < 2024)) return false;
+  return true;
+}
+
+function renderSearchPanel(topic) {
+  const profile = getSearchProfile(topic);
+  const chips = profile.keywords
+    .map(k => `<span class="search-keyword">${escapeHtml(k)}</span>`)
+    .join("");
+  const buttons = profile.sites
+    .map(key => {
+      const site = SEARCH_SITES[key];
+      if (!site) return "";
+      return `<a class="site-search-link" href="${buildSiteSearchUrl(key, profile.query)}" target="_blank" rel="noopener noreferrer">${escapeHtml(site.label)}에서 검색 ↗</a>`;
+    })
+    .join("");
+
+  return `
+    <article class="search-resource ${profile.searchFirst ? "search-first" : ""}">
+      <div class="search-resource-kicker">${profile.searchFirst ? "키워드 우선" : "추가 검색"}</div>
+      <strong>${profile.searchFirst ? "직접 일치하는 최신 정책자료가 부족합니다" : "최신 자료를 더 찾아보기"}</strong>
+      <p>${profile.searchFirst
+        ? "비슷한 보고서를 억지로 핵심자료로 붙이지 않고, 아래 키워드로 관련 정책기관의 최신 자료를 먼저 찾도록 구성했습니다."
+        : "연결된 자료를 읽은 뒤 더 최신 자료가 나왔는지 관련 정책기관에서 바로 확인할 수 있습니다."}</p>
+      <div class="search-keywords">${chips}</div>
+      <div class="site-search-actions">${buttons}</div>
+    </article>
+  `;
+}
+
 function renderResources(topic) {
+  const profile = getSearchProfile(topic);
   const keys = TOPIC_REPORTS[topic.id] || topic.resources || [];
   const resources = keys
     .map(key => RESOURCE_CATALOG[key])
     .filter(Boolean)
-    .filter(isFreshEnough);
+    .filter(isFreshEnough)
+    .filter(isAllowedResource);
 
-  if (!resources.length) {
-    el.resourceList.innerHTML = `<p class="card-subtitle">아직 직접 연결한 자료가 없습니다.</p>`;
-    return;
-  }
-
-  el.resourceList.innerHTML = resources.map((r, index) => `
+  const reportHtml = resources.map((r, index) => `
     <article class="resource-item">
       <div class="resource-head">
         <div>
-          <div class="resource-kicker">${resourceLabel(r, index)} · ${escapeHtml(r.kind || "공식 자료")} · ${escapeHtml(r.date || "")}</div>
+          <div class="resource-kicker">${resourceLabel(r, index, profile.searchFirst)} · ${escapeHtml(r.kind || "공식 자료")} · ${escapeHtml(r.date || "")}</div>
           <strong>${escapeHtml(r.title)}</strong>
           <div class="resource-org">${escapeHtml(r.org)}</div>
         </div>
@@ -1251,6 +1662,10 @@ function renderResources(topic) {
       </div>
     </article>
   `).join("");
+
+  el.resourceList.innerHTML = profile.searchFirst
+    ? `${renderSearchPanel(topic)}${reportHtml}`
+    : `${reportHtml}${renderSearchPanel(topic)}`;
 }
 
 function updateDrawerReadButton(id) {
