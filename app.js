@@ -1,69 +1,298 @@
 const RESOURCE_CATALOG = {
-  bokIssue: {
-    org: "한국은행",
-    title: "BOK 이슈노트",
-    url: "https://www.bok.or.kr/portal/singl/newsData/list.do?menuNo=200433",
-    desc: "거시경제·금융시장·구조변화 현안을 짧고 밀도 있게 분석하는 자료입니다."
+  // ── 직접 연결: 한국은행 ─────────────────────────────────────────
+  bokStockWealth26: {
+    org: "한국은행", date: "2026.05.07", kind: "BOK 이슈노트",
+    title: "우리나라 주식 자산효과에 대한 평가",
+    url: "https://www.bok.or.kr/portal/bbs/P0002353/view.do?depth=200433&menuNo=200433&nttId=10097868&programType=newsData&relate=Y",
+    desc: "주가 상승에 따른 자본이득이 소비와 가계 자산배분에 얼마나 연결되는지 실증 분석합니다."
   },
-  bokStability: {
-    org: "한국은행",
-    title: "금융안정보고서",
-    url: "https://www.bok.or.kr/portal/main/contents.do?menuNo=200068",
-    desc: "가계부채, 금융기관 건전성, 자산시장, 시스템리스크를 종합적으로 볼 때 유용합니다."
+  bokTokenization26: {
+    org: "한국은행", date: "2026.05.14", kind: "BOK 이슈노트",
+    title: "국내외 자산 토큰화 현황 및 향후 정책 과제",
+    url: "https://www.bok.or.kr/portal/bbs/P0002353/view.do?menuNo=200433&nttId=10097981",
+    desc: "RWA·국채·MMF·대체자산 토큰화의 글로벌 확산과 국내 제도 과제를 다룹니다."
   },
-  bokMonetary: {
-    org: "한국은행",
-    title: "통화정책방향 결정회의",
-    url: "https://www.bok.or.kr/portal/singl/crncyPolicyDrcMtg/listYear.do?menuNo=200755&mtgSe=A",
-    desc: "기준금리 판단, 물가·성장·환율에 대한 중앙은행의 최신 시각을 확인할 수 있습니다."
+  bokStablecoin25: {
+    org: "한국은행", date: "2025.10.27", kind: "지급결제 조사연구",
+    title: "원화 스테이블코인의 주요 이슈와 대응방안",
+    url: "https://www.bok.or.kr/portal/bbs/B0000232/view.do?menuNo=200706&nttId=10094188",
+    desc: "원화 스테이블코인의 통화·금융안정·지급결제 측면 주요 쟁점과 정책 대응을 종합합니다."
   },
-  fsc: {
-    org: "금융위원회",
-    title: "금융위원회 보도자료",
-    url: "https://www.fsc.go.kr/no010101",
-    desc: "자본시장·가계부채·디지털금융·정책금융 등 제도 변화의 공식 원문을 확인할 수 있습니다."
+  bokFsr26: {
+    org: "한국은행", date: "2026.06", kind: "금융안정보고서",
+    title: "금융안정보고서 2026년 6월",
+    url: "https://www.bok.or.kr/portal/bbs/P0000593/view.do?menuNo=200068&nttId=11062197",
+    desc: "가계·기업신용, 부동산, 금융기관, 자본유출입, 거시건전성정책을 한 번에 점검할 수 있습니다."
   },
-  kcmi: {
-    org: "자본시장연구원",
-    title: "최신 연구보고서",
-    url: "https://www.kcmi.re.kr/report/report_list",
-    desc: "주주가치, 지배구조, 공시, 외환·채권·증권산업 등 자본시장 논제를 깊게 공부하기 좋습니다."
+  bokHousehold26: {
+    org: "한국은행", date: "2026.05.22", kind: "가계부채 통계",
+    title: "2026년 1/4분기 차주별 가계부채",
+    url: "https://www.bok.or.kr/portal/bbs/B0000501/view.do?depth=201264&menuNo=201264&nttId=10098089&programType=newsData&relate=Y",
+    desc: "차주별 가계부채의 최신 통계와 취약성 점검에 활용할 수 있는 원자료입니다."
   },
-  kdiOutlook: {
-    org: "KDI",
-    title: "KDI 경제전망",
+  bokAI26: {
+    org: "한국은행", date: "2026.06", kind: "BOK 이슈노트",
+    title: "AI 도입은 생산성을 높이는가? 초기 3년의 경험과 시사점",
+    url: "https://www.bok.or.kr/portal/bbs/P0002353/view.do?depth=200433&menuNo=200433&nttId=10098322&programType=newsData&relate=Y",
+    desc: "AI 도입의 생산성 효과와 조직 재설계·직무 재배치·청년 숙련 형성 문제를 분석합니다."
+  },
+  bokAI25: {
+    org: "한국은행", date: "2025.02.10", kind: "BOK 이슈노트",
+    title: "AI와 한국경제",
+    url: "https://www.bok.or.kr/portal/bbs/P0002353/view.do?menuNo=200433&nttId=10089704",
+    desc: "AI 확산이 생산성·노동시장·한국경제에 미치는 영향을 폭넓게 다룹니다."
+  },
+  bokOverseasFx: {
+    org: "한국은행", date: "금요강좌", kind: "강의·분석자료",
+    title: "우리나라 해외투자와 환율",
+    url: "https://www.bok.or.kr/portal/bbs/B0000217/view.do?menuNo=200144&nttId=10089699",
+    desc: "해외증권투자 확대가 외환수요와 원/달러 환율에 연결되는 경로를 설명합니다."
+  },
+  bokFxExplain26: {
+    org: "한국은행", date: "2026.01.19", kind: "BOK 경제자료",
+    title: "외화자금시장에 달러는 많은데 환율은 왜 오르는 것일까?",
+    url: "https://www.bok.or.kr/portal/bbs/B0000347/view.do?menuNo=201106&nttId=10095828",
+    desc: "해외증권투자, 외화자금 수급과 환율 상승을 구분해서 이해하는 데 유용합니다."
+  },
+  bokMonetary26: {
+    org: "한국은행", date: "2026.03", kind: "통화신용정책보고서",
+    title: "통화신용정책보고서 2026년 3월",
+    url: "https://www.bok.or.kr/portal/bbs/B0000156/view.do?depth=200067&menuNo=200067&nttId=10096935",
+    desc: "물가·성장·금융불균형·자산가격을 고려한 통화정책 판단의 최신 틀을 확인할 수 있습니다."
+  },
+  bokRegion23: {
+    org: "한국은행", date: "2023.11.02", kind: "BOK 이슈노트",
+    title: "지역간 인구이동과 지역경제",
+    url: "https://www.bok.or.kr/portal/bbs/P0002353/view.do?menuNo=200433&nttId=10080338",
+    desc: "청년층 유출이 출산·고용·인적자본과 지역 성장에 미치는 영향을 분석합니다."
+  },
+  bokRegion26: {
+    org: "한국은행", date: "2026.01.28", kind: "지역경제보고서",
+    title: "지역경제보고서 2025년 하반기",
+    url: "https://www.bok.or.kr/portal/bbs/P0002507/view.do?menuNo=200069&nttId=10096149",
+    desc: "권역별 생산·서비스·건설업 등 최신 지역경제 흐름을 비교할 수 있습니다."
+  },
+  bokPopulationConsumption25: {
+    org: "한국은행", date: "2025.05", kind: "경제전망 핵심이슈",
+    title: "인구구조 변화가 소비 둔화에 미치는 영향",
+    url: "https://www.bok.or.kr/portal/bbs/B0000368/view.do?menuNo=201140&nttId=10091752",
+    desc: "인구감소와 고령화가 소비성향·소비여력·내수에 미치는 영향을 분석합니다."
+  },
+  bokEmployment25: {
+    org: "한국은행", date: "2025.06.17", kind: "BOK 이슈노트",
+    title: "인구 및 노동시장 구조를 고려한 취업자수 추세 전망 및 시사점",
+    url: "https://www.bok.or.kr/portal/bbs/P0002353/view.do?depth=200433&menuNo=200433&nttId=10091953&programType=newsData&relate=Y",
+    desc: "고령화·인구구조 변화와 고용 추세를 함께 이해할 수 있는 자료입니다."
+  },
+  bokClimate21: {
+    org: "한국은행", date: "2021.12", kind: "조사통계월보 논고",
+    title: "기후변화 이행리스크와 금융안정",
+    url: "https://www.bok.or.kr/portal/bbs/P0000551/view.do?menuNo=200438&nttId=10068224",
+    desc: "탄소중립 전환 과정의 좌초자산·신용위험이 금융시스템 안정에 미치는 영향을 다룹니다."
+  },
+  bokCBDC24: {
+    org: "한국은행", date: "2024.11.06", kind: "CBDC·예금토큰",
+    title: "CBDC 및 예금 토큰 기반 국민 체감형 디지털 금융서비스 실증",
+    url: "https://www.bok.or.kr/portal/bbs/B0000502/view.do?menuNo=201265&nttId=10087852",
+    desc: "CBDC와 예금토큰의 실제 유통 구조 및 민간은행과 중앙은행의 역할을 이해하기 좋습니다."
+  },
+
+  // ── 직접 연결: 자본시장연구원·금융위 ──────────────────────────
+  kcmiValueup26: {
+    org: "자본시장연구원", date: "2026.06.01", kind: "자본시장포커스",
+    title: "밸류업 공시 참여에 따른 상장기업 성과 비교 및 향후 과제",
+    url: "https://www.kcmi.re.kr/publications/pub_detail_view?cno=6774&syear=2026&zcd=002001016&zno=1917",
+    desc: "밸류업 공시 기업의 주가수익률·ROE·PBR·주주환원 성과를 비교합니다."
+  },
+  kcmiValueup24: {
+    org: "자본시장연구원", date: "2024.08.19", kind: "자본시장포커스",
+    title: "한국 자본시장 밸류업 정책의 방향성",
+    url: "https://www.kcmi.re.kr/publications/pub_detail_view?cno=6388&syear=2024&zcd=002001016&zno=1802",
+    desc: "코리아 디스카운트와 기업 수익성·성장성·거버넌스·주주환원의 관계를 설명합니다."
+  },
+  kcmiGovernance24: {
+    org: "자본시장연구원", date: "2024.04.15", kind: "자본시장포커스",
+    title: "국내외 기업지배구조 모범규준 운영 현황과 과제",
+    url: "https://www.kcmi.re.kr/publications/pub_detail_view?cno=6319&syear=2024&zcd=002001016&zno=1780",
+    desc: "이사회·감사·주주환원·지배구조 공시와 밸류업의 연결을 살펴봅니다."
+  },
+  kcmiFxHours26: {
+    org: "자본시장연구원", date: "2026.05.13", kind: "이슈보고서 26-11",
+    title: "외환시장 거래시간 연장이 환율 변동성에 미친 영향",
+    url: "https://www.kcmi.re.kr/report/report_view?report_no=2295&s_report_subject=&s_report_type=&tabIdx=4&thispage=1",
+    desc: "거래시간 연장이 원/달러 변동성·갭 리스크·가격발견 기능에 미친 효과를 실증 분석합니다."
+  },
+  kcmiSmallIB26: {
+    org: "자본시장연구원", date: "2026.05.21", kind: "조사보고서",
+    title: "미국 중소형 투자은행(IB)의 사업모델과 경쟁 전략",
+    url: "https://www.kcmi.re.kr/report/report_view?report_no=2294",
+    desc: "국내 중소 성장기업이 은행·정책자금에 의존하는 구조와 자본시장 기업금융의 역할을 비교합니다."
+  },
+  kcmiUnicorn24: {
+    org: "자본시장연구원", date: "2024.01.04", kind: "조사보고서",
+    title: "유니콘 기업 자금조달의 특징과 국내 모험자본시장 시사점",
+    url: "https://www.kcmi.re.kr/report/report_view?report_no=1772",
+    desc: "고성장 혁신기업의 성장단계별 자금조달과 모험자본시장 발전 방향을 분석합니다."
+  },
+  kcmiCrossCrypto26: {
+    org: "자본시장연구원", date: "2026.02.26", kind: "이슈보고서",
+    title: "국경간 암호화 자산 거래 현황 및 시사점",
+    url: "https://www.kcmi.re.kr/report/report_view?report_no=2263",
+    desc: "스테이블코인을 중심으로 확대되는 국경간 암호화자산 거래와 국제자본이동 문제를 다룹니다."
+  },
+  kcmiStableFx25: {
+    org: "자본시장연구원", date: "2025.09.01", kind: "자본시장포커스",
+    title: "원화 스테이블코인의 외환부문 영향과 정합성 제고 방향",
+    url: "https://www.kcmi.re.kr/publications/pub_detail_view?cno=6603&syear=2025&zcd=002001016&zno=1867",
+    desc: "원화 스테이블코인의 자본유출·외환안정·원화 국제화 쟁점을 집중적으로 다룹니다."
+  },
+  kcmiStableTreasury25: {
+    org: "자본시장연구원", date: "2025.08.11", kind: "이슈보고서 25-13",
+    title: "스테이블코인과 단기 국고채",
+    url: "https://www.kcmi.re.kr/report/report_view?report_no=2149",
+    desc: "스테이블코인 준비자산 요건과 국내 단기 안전자산 공급 문제를 분석합니다."
+  },
+  kcmiCorpFinance23: {
+    org: "자본시장연구원", date: "2023.03.20", kind: "자본시장포커스",
+    title: "최근 기업 자금조달 여건 및 불안요인",
+    url: "https://www.kcmi.re.kr/publications/pub_detail_view?cno=6084&syear=2023&zcd=002001016&zno=1712",
+    desc: "회사채·은행대출·저신용기업·P-CBO를 연결해 기업 자금조달 리스크를 설명합니다."
+  },
+  fscShort25: {
+    org: "금융위원회", date: "2025.03.21", kind: "보도자료",
+    title: "공매도 제도개선 및 2025년 3월 전면 재개",
+    url: "https://www.fsc.go.kr/no010101/84216",
+    desc: "공매도 전면 재개와 전산시스템·과열종목 제도 등 최신 제도개선 내용을 확인할 수 있습니다."
+  },
+  fscShortImprove24: {
+    org: "금융위원회", date: "2024.06.13", kind: "정책방안",
+    title: "시장질서 확립을 위한 공매도 제도개선 방안",
+    url: "https://www.fsc.go.kr/no010101/82450",
+    desc: "무차입 공매도 방지 전산시스템, 대차 상환기간, 처벌 강화 등 제도 설계의 핵심 자료입니다."
+  },
+  fscAI24: {
+    org: "금융위원회", date: "2024.12.12", kind: "정책방안",
+    title: "금융권의 AI 활용을 적극 지원하겠습니다",
+    url: "https://www.fsc.go.kr/no010101/83594?curPage=&srchBeginDt=&srchCtgry=&srchEndDt=&srchKey=&srchText=",
+    desc: "상용·오픈소스 생성형 AI 활용체계와 금융회사 내부망·모델 안전성 지원방안을 다룹니다."
+  },
+  fscAirgap24: {
+    org: "금융위원회", date: "2024.08.13", kind: "로드맵",
+    title: "금융분야 망분리 개선 로드맵",
+    url: "https://www.fsc.go.kr/no010101/82885?curPage=&srchBeginDt=&srchCtgry=&srchEndDt=&srchKey=&srchText=",
+    desc: "SaaS·생성형 AI 활용 확대와 보안·제3자 리스크 관리의 균형을 다룹니다."
+  },
+
+  // ── 직접 연결: KDI·KIEP·수출입은행 ────────────────────────────
+  kdiOutlook26: {
+    org: "KDI", date: "2026 상반기", kind: "경제전망",
+    title: "KDI 경제전망, 2026 상반기",
     url: "https://www.kdi.re.kr/research/economy",
-    desc: "성장률·물가·소비·투자·수출입과 대외여건을 한 번에 정리할 수 있습니다."
+    desc: "성장·물가·소비·투자·수출과 주요 대외 리스크를 종합적으로 점검합니다."
   },
-  kdiTrend: {
-    org: "KDI",
-    title: "KDI 경제동향",
-    url: "https://www.kdi.re.kr/research/monTrends",
-    desc: "월별 국내외 거시 흐름과 주요 지표를 짧게 업데이트할 때 유용합니다."
+  kdiPension24: {
+    org: "KDI", date: "2024", kind: "연구보고서",
+    title: "공적연금제도 지속가능성 제고를 위한 개혁방안",
+    url: "https://www.kdi.re.kr/research/reportView?pub_no=18461",
+    desc: "국민연금 재정지속성·세대간 형평성·기초연금 재구조화·사회적 합의를 함께 다룹니다."
   },
-  kdiHub: {
-    org: "KDI 경제교육·정보센터",
-    title: "국내연구자료",
-    url: "https://eiec.kdi.re.kr/policy/domesticList.do",
-    desc: "여러 국책·연구기관의 최신 정책 보고서를 한 곳에서 탐색할 수 있습니다."
+  kdiHouseholdDemo25: {
+    org: "KDI", date: "2025.08.05", kind: "KDI FOCUS",
+    title: "인구구조 변화가 가계부채에 미치는 영향",
+    url: "https://www.kdi.re.kr/research/focusView?pub_no=18853",
+    desc: "기대수명·연령구조 변화가 가계의 자산축적과 부채 추세에 미치는 영향을 분석합니다."
   },
-  krx: {
-    org: "한국거래소",
-    title: "한국거래소",
-    url: "https://www.krx.co.kr/",
-    desc: "시장제도, 밸류업, 공매도, 상장·공시 등 거래소 고유 이슈의 공식 자료를 확인합니다."
+  kdiCarbon24: {
+    org: "KDI", date: "연구보고서", kind: "기후·통상",
+    title: "탄소중립정책의 영향: 무역과 환경을 중심으로",
+    url: "https://www.kdi.re.kr/research/reportView?pub_no=18444",
+    desc: "EU CBAM과 국내 탄소중립정책이 한국 경제·무역·탄소배출에 미치는 효과를 분석합니다."
   },
-  kdic: {
-    org: "예금보험공사",
-    title: "예금보험공사 연구·제도 자료",
-    url: "https://www.kdic.or.kr/",
-    desc: "예금자보호, 금융회사 정리, 금융안정, 리스크리뷰 등 예보 관점의 자료를 볼 수 있습니다."
+  kiepTariff25: {
+    org: "대외경제정책연구원", date: "2025.04.10", kind: "오늘의 세계경제",
+    title: "트럼프 2기 상호관세 조치의 주요 내용과 시사점",
+    url: "https://www.kiep.go.kr/gallery.es?act=view&bid=0003&list_no=11790&mid=a10102020000",
+    desc: "미국 상호관세의 국가별 적용과 한국 수출·통상환경에 미치는 영향을 정리합니다."
   },
-  kodit: {
-    org: "신용보증기금",
-    title: "중소기업금융연구",
-    url: "https://www.kodit.co.kr/kodit/cm/cntnts/cntntsView.do?cntntsId=11273&mi=2649",
-    desc: "중소기업 금융, 신용보증, 정책금융과 기업 신용위험을 공부하기 좋은 신보 발간자료입니다."
+  kiepWorld26: {
+    org: "대외경제정책연구원", date: "2025.11.11", kind: "세계경제 전망",
+    title: "2026년 세계경제 전망",
+    url: "https://www.kiep.go.kr/gallery.es?act=view&bid=0003&list_no=12086&mid=a10101010000",
+    desc: "신관세·무역질서·AI 투자·주요국 성장 경로를 종합적으로 전망합니다."
+  },
+  kiepCbam26: {
+    org: "대외경제정책연구원", date: "2026.03.09", kind: "세계경제 포커스",
+    title: "EU CBAM 확정기간 이행 동향과 시사점",
+    url: "https://www.kiep.go.kr/gallery.es?act=view&bid=0004&list_no=12272&mid=a10102030000",
+    desc: "2026년 본격 시행된 CBAM의 비용·검증·경쟁력 영향을 최신 기준으로 정리합니다."
+  },
+  kiepCbamSme: {
+    org: "대외경제정책연구원", date: "연구보고서", kind: "중소기업·통상",
+    title: "탄소국경조정제도(CBAM)에 대한 중소기업 대응방안 연구",
+    url: "https://www.kiep.go.kr/gallery.es?act=view&bid=0001&list_no=10000&mid=a10101010000",
+    desc: "CBAM의 중소기업 영향·산업별 취약성·정책금융 및 기업 대응방안을 분석합니다."
+  },
+  keximSemi26: {
+    org: "한국수출입은행", date: "2025.12.30", kind: "산업전망",
+    title: "2026년 반도체 수출 전망",
+    url: "https://eiec.kdi.re.kr/policy/domesticView.do?ac=0000202187",
+    desc: "메모리·시스템반도체·파운드리 시장과 미국 관세정책을 반영한 2026년 수출 전망입니다."
+  },
+  keximIndustry26: {
+    org: "한국수출입은행", date: "2026.01.22", kind: "경제·산업 전망",
+    title: "2026년 경제·산업 전망",
+    url: "https://eiec.kdi.re.kr/policy/domesticView.do?ac=0000202190",
+    desc: "국내외 경제와 반도체·미래차·바이오·조선 등 주요 산업의 수출 리스크를 정리합니다."
+  },
+
+  // ── 직접 연결: 신보·예보 ───────────────────────────────────────
+  koditRateRisk: {
+    org: "신용보증기금", date: "연구논문", kind: "중소기업금융연구",
+    title: "금리와 금리변동성이 중소기업 부실에 미치는 영향",
+    url: "https://www.kodit.co.kr/common/nttFileDownload.do?fileKey=ea495b15c6ffda6a9d1d9362f60948d2",
+    desc: "금리 수준과 변동성이 중소기업 부실률에 미치는 영향을 분석한 신보 연구자료입니다."
+  },
+  koditPcbo: {
+    org: "신용보증기금", date: "연구자료", kind: "P-CBO",
+    title: "P-CBO 보증 성과분석과 발전방향",
+    url: "https://www.kodit.co.kr/common/nttFileDownload.do?fileKey=ee49acc5dacc6e4b07b30153835d94e8",
+    desc: "P-CBO 보증 구조·정책효과·기업 자금조달 지원 기능을 이해하는 기초자료입니다."
+  },
+  koditPlan26: {
+    org: "신용보증기금", date: "2026", kind: "업무계획",
+    title: "2026년도 업무계획",
+    url: "https://www.kodit.co.kr/common/nttFileDownload.do?fileKey=e2eb9bc371e07d8d3061a74aa357e10e",
+    desc: "P-CBO 직접발행 등 신보의 2026년 정책금융 추진방향을 확인할 수 있습니다."
+  },
+  koditCreditModel: {
+    org: "신용보증기금", date: "연구자료", kind: "신용위험",
+    title: "스코어 얼라인먼트 기반 중소기업 부도예측모형의 운영 효율화",
+    url: "https://www.kodit.co.kr/common/fileDownload.do?fileKey=f319066ee2a41a80500c2ef84d4ca89f",
+    desc: "기업 신용평가·부도예측모형이 실제 보증·대출 판단에 어떻게 활용되는지 살펴볼 수 있습니다."
+  },
+  kdicLimit25: {
+    org: "예금보험공사", date: "2025.07.22", kind: "보도자료",
+    title: "2025년 9월 1일부터 예금을 1억원까지 보호합니다",
+    url: "https://www.kdic.or.kr/di/medi/selectPbcrBbsDtl.do?bbsSeCd=bodo&cdVl=bodo&pstNo=59448",
+    desc: "예금보호한도 1억원 상향의 시행일·적용범위·제도 변경사항을 공식적으로 정리합니다."
+  },
+  kdicBankResolution24: {
+    org: "예금보험공사", date: "2024.12.23", kind: "Weekly KDIC",
+    title: "부실 은행 정리의 세가지 원칙",
+    url: "https://www.kdic.or.kr/ra/rschanls/selectKraiFncStblRptpDtl.do?contsSn=3481",
+    desc: "은행 실패 허용·최소비용·비보호예금 손실부담 등 정리제도의 핵심 원칙을 설명합니다."
+  },
+  kdicBankrun24: {
+    org: "예금보험공사", date: "2024.12.26", kind: "연구논문집",
+    title: "금융의 디지털화와 뱅크런 위험·특별정리제도",
+    url: "https://www.kdic.or.kr/ra/rschanls/selectKraiDpsmInsrncRptpDtl.do?contsSn=3482",
+    desc: "디지털 금융이 뱅크런 위험에 미치는 영향과 금융기관 부실 시 특별정리제도를 함께 다룹니다."
+  },
+  kdicMoney25: {
+    org: "예금보험공사", date: "2025.05.20", kind: "거시경제·금융일반",
+    title: "공공화폐와 민간화폐의 역할 및 디지털화에 따른 구조 변화",
+    url: "https://www.kdic.or.kr/ra/rschanls/selectKraiEcnmFncGnrlRptpDtl.do?contsSn=34536",
+    desc: "중앙은행화폐·은행예금·민간 디지털 지급수단이 공존하는 화폐 시스템의 구조를 설명합니다."
   }
 };
 
@@ -141,6 +370,84 @@ const RECOMMENDED_TOPICS = [
   {id:"rec-cbdc", priority:2, types:["논술","PT"], category:"디지털·AI", title:"CBDC·예금토큰과 은행 중개기능", subtitle:"지급결제 혁신이 예금·대출에 미치는 영향", reason:"디지털 화폐가 은행 예금 기반과 신용창출에 어떤 변화를 주는지 분석할 수 있습니다.", keywords:["CBDC","예금토큰","은행대출","지급결제"], resources:["bokIssue","kdiHub","fsc"]},
   {id:"rec-capitalmarket-growth", priority:2, types:["논술","PT"], category:"자본시장", title:"중소 성장기업의 자본시장 자금조달", subtitle:"은행·정책금융 의존에서 자본시장으로", reason:"생산적 금융과 모험자본, 중소형 IB의 역할을 함께 논할 수 있습니다.", keywords:["성장기업","자본시장","IB","기업금융"], resources:["kcmi","fsc","kodit"]}
 ];
+
+
+const TOPIC_REPORTS = {
+  // 한국은행
+  "bok-2020-fomo": ["bokStockWealth26", "bokMonetary26"],
+  "bok-2021-money": ["kdicMoney25", "bokCBDC24"],
+  "bok-2022-pension": ["kdiPension24", "bokPopulationConsumption25"],
+  "bok-2022-housing": ["bokFsr26", "kdiHouseholdDemo25"],
+  "bok-2022-polarization": ["bokPopulationConsumption25", "kdiOutlook26"],
+  "bok-2023-region": ["bokRegion23", "bokRegion26"],
+  "bok-2024-ai-democracy": ["bokAI25", "bokAI26"],
+  "bok-2022-inflation": ["bokMonetary26", "kdiOutlook26"],
+  "bok-2023-household-debt": ["bokFsr26", "bokHousehold26", "kdiHouseholdDemo25"],
+  "bok-2023-bankrun": ["kdicBankrun24", "kdicBankResolution24", "bokFsr26"],
+  "bok-2024-aging-business": ["bokPopulationConsumption25", "bokEmployment25"],
+  "bok-2024-climate": ["bokClimate21", "kdiCarbon24"],
+
+  // 금융감독원
+  "fss-2025-carbon-tax": ["bokClimate21", "kdiCarbon24"],
+  "fss-basel3": ["bokFsr26", "kdicBankResolution24"],
+
+  // 한국거래소
+  "krx-2019-ev": ["keximIndustry26", "kiepWorld26"],
+  "krx-2019-export": ["kdiOutlook26", "keximIndustry26"],
+  "krx-2020-trade-war": ["kiepTariff25", "kiepWorld26"],
+  "krx-2020-selfemployed": ["kdiOutlook26", "bokMonetary26"],
+  "krx-2021-women": ["bokEmployment25", "bokPopulationConsumption25"],
+  "krx-2022-industry4": ["bokAI25", "bokAI26"],
+  "krx-2022-fakenews": ["bokAI25"],
+  "krx-2023-crypto": ["bokStablecoin25", "kcmiCrossCrypto26"],
+  "krx-2023-virtualhuman": ["bokAI25", "bokAI26"],
+  "krx-2024-shortselling": ["fscShortImprove24", "fscShort25"],
+  "krx-2024-valueup": ["kcmiValueup24", "kcmiValueup26"],
+  "krx-2025-discount": ["kcmiValueup24", "kcmiGovernance24", "kcmiValueup26"],
+  "krx-2025-treasury": ["kcmiValueup26", "kcmiValueup24"],
+
+  // 신용보증기금
+  "kodit-2025-project": ["koditCreditModel", "kcmiCorpFinance23"],
+  "kodit-2025-tariff": ["kiepTariff25", "keximIndustry26"],
+  "kodit-2025-intrapreneur": ["koditPlan26"],
+  "kodit-rates-sme": ["koditRateRisk", "kcmiCorpFinance23", "koditPlan26"],
+  "kodit-insolvency": ["koditCreditModel", "koditRateRisk"],
+
+  // 예금보험공사·무보·산은
+  "kdic-systemic": ["bokFsr26", "kdicBankrun24", "kdicBankResolution24"],
+  "kdic-safeasset": ["bokFsr26", "bokMonetary26"],
+  "kdic-social": ["kdicLimit25"],
+  "ksure-fs": ["koditCreditModel", "keximIndustry26"],
+  "kdb-2020-neuralink": ["bokAI25", "bokAI26"],
+  "kdb-2020-pandemic": ["kdiOutlook26", "kiepWorld26"],
+  "kdb-ai-jobs": ["bokAI26", "bokAI25"],
+
+  // 추천 주제
+  "rec-fx-overseas": ["bokOverseasFx", "bokFxExplain26", "bokFsr26"],
+  "rec-tokenization": ["bokTokenization26", "kcmiCrossCrypto26"],
+  "rec-stablecoin": ["bokStablecoin25", "kcmiStableFx25", "kcmiStableTreasury25"],
+  "rec-household-debt": ["bokFsr26", "bokHousehold26", "kdiHouseholdDemo25"],
+  "rec-stock-wealth": ["bokStockWealth26", "bokMonetary26"],
+  "rec-governance": ["kcmiGovernance24", "kcmiValueup24", "kcmiValueup26"],
+  "rec-guidance": ["kcmiValueup26", "kcmiGovernance24"],
+  "rec-shortselling-2026": ["fscShort25", "fscShortImprove24"],
+  "rec-ai-labor": ["bokAI26", "bokAI25", "bokEmployment25"],
+  "rec-ai-finance": ["fscAI24", "fscAirgap24", "bokAI26"],
+  "rec-data-scraping": ["fscAirgap24", "fscAI24"],
+  "rec-tariffs": ["kiepTariff25", "kiepWorld26", "keximIndustry26"],
+  "rec-semiconductor": ["keximSemi26", "keximIndustry26", "kiepWorld26"],
+  "rec-fx-hours": ["kcmiFxHours26", "bokFxExplain26"],
+  "rec-deposit-limit": ["kdicLimit25", "kdicBankResolution24", "kdicBankrun24"],
+  "rec-bank-resolution": ["kdicBankResolution24", "kdicBankrun24", "bokFsr26"],
+  "rec-sme-credit": ["koditRateRisk", "koditCreditModel", "kcmiCorpFinance23"],
+  "rec-pcbo": ["koditPcbo", "koditPlan26", "kcmiCorpFinance23"],
+  "rec-climate": ["bokClimate21", "kdiCarbon24"],
+  "rec-carbon-border": ["kiepCbam26", "kiepCbamSme", "kdiCarbon24"],
+  "rec-lowbirth-region": ["bokRegion23", "bokRegion26", "bokPopulationConsumption25"],
+  "rec-pension": ["kdiPension24", "bokPopulationConsumption25"],
+  "rec-cbdc": ["bokCBDC24", "bokStablecoin25", "kcmiStableTreasury25"],
+  "rec-capitalmarket-growth": ["kcmiSmallIB26", "kcmiUnicorn24", "kcmiCorpFinance23"]
+};
 
 const state = {
   view: "past",
@@ -305,27 +612,30 @@ function updateStats() {
 }
 
 function renderResources(topic) {
-  el.resourceList.innerHTML = topic.resources.map(key => {
-    const r = RESOURCE_CATALOG[key];
-    if (!r) return "";
-    const query = topic.keywords.slice(0, 3).join(" ");
-    return `
-      <article class="resource-item">
-        <div class="resource-head">
-          <div>
-            <strong>${escapeHtml(r.title)}</strong>
-            <div class="resource-org">${escapeHtml(r.org)}</div>
-          </div>
+  const keys = TOPIC_REPORTS[topic.id] || topic.resources || [];
+  const resources = keys.map(key => RESOURCE_CATALOG[key]).filter(Boolean);
+
+  if (!resources.length) {
+    el.resourceList.innerHTML = `<p class="card-subtitle">아직 직접 연결한 자료가 없습니다.</p>`;
+    return;
+  }
+
+  el.resourceList.innerHTML = resources.map((r, index) => `
+    <article class="resource-item">
+      <div class="resource-head">
+        <div>
+          <div class="resource-kicker">${escapeHtml(r.kind || "공식 자료")} · ${escapeHtml(r.date || "")}</div>
+          <strong>${escapeHtml(r.title)}</strong>
+          <div class="resource-org">${escapeHtml(r.org)}</div>
         </div>
-        <p>${escapeHtml(r.desc)}</p>
-        <div class="query-text">검색어 · ${escapeHtml(query)}</div>
-        <div class="resource-actions">
-          <a class="resource-link" href="${escapeHtml(r.url)}" target="_blank" rel="noopener noreferrer">자료실 열기 ↗</a>
-          <button class="copy-query" type="button" data-query="${escapeHtml(query)}">검색어 복사</button>
-        </div>
-      </article>
-    `;
-  }).join("");
+        <span class="resource-number">${String(index + 1).padStart(2, "0")}</span>
+      </div>
+      <p>${escapeHtml(r.desc)}</p>
+      <div class="resource-actions">
+        <a class="resource-link primary" href="${escapeHtml(r.url)}" target="_blank" rel="noopener noreferrer">이 자료 바로 열기 ↗</a>
+      </div>
+    </article>
+  `).join("");
 }
 
 function openDrawer(id) {
@@ -507,16 +817,6 @@ document.addEventListener("keydown", e => {
 el.topicNote.addEventListener("input", handleNoteInput);
 el.clearCurrentNoteBtn.addEventListener("click", clearCurrentNote);
 
-el.resourceList.addEventListener("click", async e => {
-  const btn = e.target.closest(".copy-query");
-  if (!btn) return;
-  try {
-    await navigator.clipboard.writeText(btn.dataset.query);
-    toast("검색어를 복사했습니다.");
-  } catch {
-    toast("복사하지 못했습니다. 검색어를 직접 선택해 주세요.");
-  }
-});
 
 el.exportNotesBtn.addEventListener("click", exportNotes);
 el.importNotesInput.addEventListener("change", e => importNotes(e.target.files?.[0]));

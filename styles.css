@@ -575,3 +575,27 @@ body.drawer-open { overflow: hidden; }
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { scroll-behavior: auto !important; transition: none !important; }
 }
+
+
+.resource-kicker {
+  margin-bottom: 4px;
+  color: var(--muted);
+  font-size: 10px;
+  font-weight: 650;
+  letter-spacing: .03em;
+}
+.resource-number {
+  flex: 0 0 auto;
+  color: var(--line-strong);
+  font-family: Georgia, serif;
+  font-size: 18px;
+}
+.resource-link.primary {
+  border-color: color-mix(in srgb, var(--accent) 32%, var(--line));
+  color: var(--accent);
+  font-weight: 700;
+}
+.resource-link.primary:hover {
+  background: var(--accent-soft);
+  border-color: var(--accent);
+}
