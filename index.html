@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="ko" data-theme="light">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="description" content="금융공기업 기출·추천 주제를 기관 1차 자료와 연결해 공부하는 금융·거시경제 아카이브" />
+  <meta name="theme-color" content="#f5f3ee" />
+  <title>Finance Topic Archive</title>
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#topicGrid">본문으로 이동</a>
+
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="#" aria-label="Finance Topic Archive 홈">
+        <span class="brand-mark">F</span>
+        <span>
+          <strong>Finance Topic Archive</strong>
+          <small>기출에서 1차 자료로</small>
+        </span>
+      </a>
+      <div class="header-actions">
+        <button class="icon-btn" id="themeToggle" type="button" aria-label="다크 모드 전환">◐</button>
+        <button class="ghost-btn" id="exportNotesBtn" type="button">노트 내보내기</button>
+        <label class="ghost-btn file-label">
+          노트 가져오기
+          <input id="importNotesInput" type="file" accept="application/json,.json" hidden />
+        </label>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">FINANCE · MACRO · POLICY</p>
+        <h1>기출을 외우지 않고,<br />왜 나왔는지 공부하는 아카이브</h1>
+        <p class="hero-description">
+          금융공기업 기출과 시의성 있는 추천 주제를 한곳에 모으고,
+          각 주제를 한국은행·금융위원회·KDI·자본시장연구원 등 1차 자료로 연결합니다.
+          주제별 개인 메모는 브라우저에 자동 저장됩니다.
+        </p>
+      </div>
+      <div class="hero-stats" aria-label="아카이브 통계">
+        <div><strong id="pastCount">0</strong><span>기출 주제</span></div>
+        <div><strong id="recommendedCount">0</strong><span>추천 주제</span></div>
+        <div><strong id="noteCount">0</strong><span>작성 노트</span></div>
+      </div>
+    </section>
+
+    <section class="workspace">
+      <div class="tabs" role="tablist" aria-label="주제 종류">
+        <button class="tab active" id="pastTab" data-view="past" role="tab" aria-selected="true">기출 아카이브</button>
+        <button class="tab" id="recommendedTab" data-view="recommended" role="tab" aria-selected="false">추천 주제</button>
+      </div>
+
+      <section class="controls" aria-label="검색 및 필터">
+        <div class="search-wrap">
+          <span class="search-icon">⌕</span>
+          <input id="searchInput" type="search" placeholder="주제·기관·키워드 검색" autocomplete="off" />
+          <kbd>/</kbd>
+        </div>
+
+        <div class="filter-row">
+          <div class="chip-group" id="typeFilters" aria-label="유형 필터">
+            <button class="chip active" data-type="all">전체</button>
+            <button class="chip" data-type="논술">논술</button>
+            <button class="chip" data-type="PT">PT</button>
+            <button class="chip" data-type="토론">토론</button>
+          </div>
+          <label class="note-only">
+            <input id="noteOnlyCheckbox" type="checkbox" />
+            <span>메모 있는 주제만</span>
+          </label>
+        </div>
+
+        <div class="filter-scroller" id="secondaryFilters" aria-label="기관 또는 분야 필터"></div>
+      </section>
+
+      <div class="result-bar">
+        <p id="resultSummary">주제를 불러오는 중입니다.</p>
+        <button id="clearFiltersBtn" class="text-btn" type="button">필터 초기화</button>
+      </div>
+
+      <section id="topicGrid" class="topic-grid" aria-live="polite"></section>
+
+      <section id="emptyState" class="empty-state" hidden>
+        <div class="empty-symbol">⌁</div>
+        <h2>조건에 맞는 주제가 없습니다.</h2>
+        <p>검색어를 줄이거나 필터를 초기화해 보세요.</p>
+      </section>
+    </section>
+  </main>
+
+  <footer>
+    <p>개인 학습용 아카이브 · 기출은 응시자 복원 자료를 바탕으로 정리되었으며 실제 문항과 차이가 있을 수 있습니다.</p>
+    <p>외부 링크는 각 기관의 공식 홈페이지·연구자료실을 우선 연결합니다.</p>
+  </footer>
+
+  <div class="backdrop" id="backdrop" hidden></div>
+
+  <aside class="topic-drawer" id="topicDrawer" aria-hidden="true" aria-labelledby="drawerTitle">
+    <div class="drawer-handle" aria-hidden="true"></div>
+    <div class="drawer-header">
+      <div>
+        <p id="drawerMeta" class="drawer-meta"></p>
+        <h2 id="drawerTitle">주제</h2>
+      </div>
+      <button class="icon-btn" id="drawerCloseBtn" type="button" aria-label="닫기">×</button>
+    </div>
+
+    <div class="drawer-scroll">
+      <section class="drawer-section" id="whySection">
+        <h3 id="whyHeading">주제 설명</h3>
+        <p id="drawerDescription"></p>
+      </section>
+
+      <section class="drawer-section">
+        <div class="section-title-row">
+          <h3>공부할 1차 자료</h3>
+          <span class="section-hint">새 탭에서 열립니다</span>
+        </div>
+        <div id="resourceList" class="resource-list"></div>
+      </section>
+
+      <section class="drawer-section note-section">
+        <div class="section-title-row">
+          <h3>내 메모</h3>
+          <span id="saveStatus" class="save-status">저장됨</span>
+        </div>
+        <textarea
+          id="topicNote"
+          rows="10"
+          placeholder="핵심 개념, 수치, 반론, 기관 관점 등을 자유롭게 적어두세요. 입력 내용은 이 브라우저에 자동 저장됩니다."
+        ></textarea>
+        <div class="note-footer">
+          <small>기기 간 자동 동기화는 되지 않습니다. 상단의 ‘노트 내보내기/가져오기’로 백업하거나 옮길 수 있습니다.</small>
+          <button id="clearCurrentNoteBtn" class="text-btn danger" type="button">이 메모 삭제</button>
+        </div>
+      </section>
+    </div>
+  </aside>
+
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+
+  <script src="./app.js"></script>
+</body>
+</html>
