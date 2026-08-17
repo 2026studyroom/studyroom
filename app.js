@@ -517,6 +517,157 @@ const RESOURCE_CATALOG = {
     title: "무역보험 제도 안내자료",
     url: "https://www.ksure.or.kr/rh-kr/bbs/i-329/down.do?atfile_sn=1&bbs_id=1014&data_ty_cd=A&ntt_sn=38024",
     desc: "수출보험의 담보위험, 인수·보상 구조와 신용위험 판단의 기본 틀을 확인할 수 있습니다."
+  },
+
+  kcmiRetailBehavior22: {
+    org: "자본시장연구원", date: "2022.02.03", kind: "이슈보고서",
+    title: "국내 개인투자자의 행태적 편의와 거래행태",
+    url: "https://www.kcmi.re.kr/report/report_view?report_no=1481",
+    desc: "한국 개인투자자 약 20만명의 실제 거래를 이용해 과잉확신·처분효과·복권형 주식 선호·군집거래를 분석합니다. 20·30대 영끌/FOMO 논제의 행동재무학적 핵심 자료입니다."
+  },
+  bokJoseonMoney: {
+    org: "한국은행", date: "화폐박물관", kind: "우리나라의 화폐",
+    title: "조선시대 화폐 — 저화·조선통보와 명목화폐 정착 실패",
+    url: "https://www.bok.or.kr/portal/bbs/B0000219/view.do?menuNo=200148&nttId=236333",
+    desc: "저화와 조선통보가 일반 거래수단으로 정착하지 못한 배경을 교환경제 미발달과 발행량 부족 등으로 직접 설명합니다."
+  },
+  oecdAICitizen26: {
+    org: "OECD", date: "2026.06.30", kind: "공공거버넌스 보고서",
+    title: "Artificial Intelligence and the Future of Citizen Participation",
+    url: "https://www.oecd.org/en/publications/artificial-intelligence-and-the-future-of-citizen-participation_a1ee2e0a-en.html",
+    desc: "AI가 시민참여·숙의·공공의사결정에 주는 기회와 조작·책임성·투명성 위험을 함께 분석합니다."
+  },
+  oecdFactsNotFakes24: {
+    org: "OECD", date: "2024.03.04", kind: "정책보고서",
+    title: "Facts not Fakes: Tackling Disinformation, Strengthening Information Integrity",
+    url: "https://www.oecd.org/en/publications/facts-not-fakes-tackling-disinformation-strengthening-information-integrity_d909ff7a-en.html",
+    desc: "생성형 AI·플랫폼·허위정보가 선거와 민주주의 신뢰에 미치는 위험 및 정책대응을 체계적으로 정리합니다."
+  },
+  bisClimateRisk21: {
+    org: "BIS / BCBS", date: "2021.04", kind: "국제 금융규제 보고서",
+    title: "Climate-related risk drivers and their transmission channels",
+    url: "https://www.bis.org/bcbs/publ/d517.pdf",
+    desc: "기후의 물리적 리스크와 이행리스크가 기업·은행·금융시스템으로 전달되는 경로를 가장 직접적으로 설명합니다."
+  },
+  bisBaselIII17: {
+    org: "BIS / BCBS", date: "2017.12", kind: "Basel III 기준서",
+    title: "Basel III: Finalising post-crisis reforms",
+    url: "https://www.bis.org/bcbs/publ/d424.pdf",
+    desc: "바젤Ⅲ 최종개혁안의 신용위험·운영위험·레버리지비율·산출하한을 다룬 원전입니다."
+  },
+  pwcDemographic23: {
+    org: "삼일PwC경영연구원", date: "2023.04.04", kind: "Issue Brief",
+    title: "인구구조 변화가 한국사회에 주는 시사점",
+    url: "https://www.pwc.com/kr/ko/insights/issue-brief/demographic-structure.html",
+    desc: "저출산·고령화가 성장, 소비, 기업 투자·조달비용과 산업 수요구조에 미치는 영향을 기업 관점까지 확장합니다."
+  },
+  pwcInsuranceAging24: {
+    org: "삼일PwC경영연구원", date: "2024.05.08", kind: "산업보고서",
+    title: "최근 보험산업 현황과 성장 전략: 3NEW를 중심으로",
+    url: "https://www.pwc.com/kr/ko/insights/industry-focus/insurance-growth-strategy.html",
+    desc: "저출산·고령화로 인한 내수시장 포화와 고객수요 변화에 기업이 어떻게 대응하는지 실제 산업 사례로 보여줍니다."
+  },
+  pwcWomen24: {
+    org: "PwC", date: "2024.03.08", kind: "Women in Work",
+    title: "Women in Work 2024 — 한국 여성 고용환경",
+    url: "https://www.pwc.com/kr/ko/insights/global-trends/women-in-work2024.html",
+    desc: "한국의 여성 고용·임금격차와 생산가능인구 감소를 국제 비교해 여성 고용률 논제의 보완 근거로 활용할 수 있습니다."
+  },
+  kcmiGovDisclosure26: {
+    org: "자본시장연구원", date: "2026.03.26", kind: "이슈보고서",
+    title: "기업지배구조 보고서 공시 의무화 효과 분석 및 시사점",
+    url: "https://www.kcmi.re.kr/report/report_view?report_no=2276",
+    desc: "지배구조 공시가 실제 기업행동과 시장평가에 미친 효과를 분석하고 ESG·지속가능성 공시와의 연계를 제안합니다."
+  },
+  fscESGFinal26: {
+    org: "금융위원회", date: "2026.07.08", kind: "정책방안",
+    title: "지속가능성(ESG) 공시 제도화 방안(최종안)",
+    url: "https://www.fsc.go.kr/no010101/87280",
+    desc: "국내 ESG 공시 의무화 일정·대상·Scope 3 유예·한국형 공시기준의 최종 정책방안을 담고 있습니다."
+  },
+  kdiTradeStructure25: {
+    org: "KDI", date: "2025.07.01", kind: "KDI FOCUS",
+    title: "2010년대 이후 무역구조 변화와 경제안보에 대한 함의",
+    url: "https://www.kdi.re.kr/research/focusView?pub_no=18830",
+    desc: "한국의 품목·국가별 수출집중과 글로벌 공급망 변화, 경제안보 관점의 중장기 정책방향을 직접 분석합니다."
+  },
+  kdiTradeConflict20: {
+    org: "KDI", date: "2020.01.30", kind: "연구보고서",
+    title: "확산되는 세계무역질서의 불확실성과 한국의 정책대응",
+    url: "https://www.kdi.re.kr/research/subjects_view.jsp?pub_no=16433",
+    desc: "미중 무역갈등이 한국 수출·GDP에 미치는 영향과 CPTPP·소재부품·수출지원 등 대응방안을 직접 제시합니다."
+  },
+  wefPublicEntrepreneur25: {
+    org: "World Economic Forum", date: "2025.08.26", kind: "공공혁신 사례",
+    title: "Innovating from within: How Brazil is testing new models of public entrepreneurship",
+    url: "https://www.weforum.org/stories/social-innovation/testing-new-models-of-public-entrepreneurship/",
+    desc: "공공조직 내부의 기업가정신이 작동하기 위한 리더십·정당성·협업·시민참여 조건을 실제 사례로 설명합니다."
+  },
+  bisSafeAssets25: {
+    org: "BIS", date: "2025", kind: "Working Paper",
+    title: "Global or regional safe assets: Evidence from bond substitution patterns",
+    url: "https://www.bis.org/publ/work1254.pdf",
+    desc: "시장 스트레스 시 미국 국채·독일 국채 등으로의 flight to safety가 어떻게 발생하는지 실증 분석합니다."
+  },
+  bisSafeHaven09: {
+    org: "BIS", date: "2009.12", kind: "BIS Quarterly Review",
+    title: "Safe haven, carry trades, dollar shortage and overhedging",
+    url: "https://www.bis.org/publ/qtrpdf/r_qt0912i.pdf",
+    desc: "금융위기 때 달러와 미국 단기국채로 자금이 몰리는 안전자산 회귀 메커니즘을 직접 설명합니다."
+  },
+  kdicSocial: {
+    org: "예금보험공사", date: "ESG 경영활동", kind: "공식 사회책임 자료",
+    title: "사회적책임 이행 — 금융시장 ESG·사회적경제·공익활용",
+    url: "https://www.kdic.or.kr/di/esg/PbcrESGActySoci2/selectScrn.do",
+    desc: "예보가 사회적경제기업 지원, 미매각 자산 공익활용, 금융시장을 통한 ESG가치 실현을 어떻게 수행하는지 직접 보여줍니다."
+  },
+  kdicCSRWhitepaper: {
+    org: "예금보험공사", date: "발간자료", kind: "사회공헌 백서",
+    title: "예금보험공사 사회공헌 백서",
+    url: "https://www.kdic.or.kr/di/esg/selectPbcrCSRRpt.do",
+    desc: "예보의 사회공헌 사업과 추진체계를 실제 사례 중심으로 볼 수 있는 공식 백서입니다."
+  },
+  koditIndustryRisk: {
+    org: "신용보증기금", date: "연구자료", kind: "여신·리스크관리",
+    title: "산업분석을 통한 리스크관리 방안",
+    url: "https://www.kodit.co.kr/common/nttFileDownload.do?fileKey=c54abeaf3ac3ca8030d9c2d16760890d",
+    desc: "산업분석보고서를 여신심사·기업평가에 어떻게 활용해야 하는지 설명해 설비투자 보증 승인 케이스에 직접 도움이 됩니다."
+  },
+  ksureCreditFAQ: {
+    org: "한국무역보험공사", date: "공식 FAQ", kind: "수출자 신용평가",
+    title: "수출기업 신용 평가의 기준과 절차",
+    url: "https://www.ksure.or.kr/rh-kr/bbs/i-382/list.do?pageIndex=34&pageItm=10&searchCondition=",
+    desc: "재무제표 기반 규모·안정성과 비재무 요소를 점수화해 수출자 신용등급을 산정하는 기준을 공식적으로 설명합니다."
+  },
+  kdicFedTightening26: {
+    org: "예금보험공사", date: "2026.06", kind: "금융안정연구",
+    title: "The Federal Reserve’s Tightening, Risk Management, and Default Likelihood: Evidence from Korean Banks",
+    url: "https://www.kdic.or.kr/ra/rschanls/selectKraiFncStblRschDtl.do?contsSn=34543",
+    desc: "긴축·금리충격이 국내 은행의 리스크관리와 부도가능성에 미치는 영향을 분석합니다."
+  },
+  bokFsr22Dec: {
+    org: "한국은행", date: "2022.12.22", kind: "금융안정보고서",
+    title: "금융안정보고서 2022년 12월 — 기준금리 인상과 취약차주 부실위험",
+    url: "https://www.bok.or.kr/portal/bbs/P0000593/view.do?menuNo=200068&nttId=10074512&pageIndex=1",
+    desc: "금리상승이 가계·자영업자·한계기업의 상환부담과 부실위험, 금융기관 복원력에 미치는 영향을 직접 점검합니다."
+  },
+  oecdNeuroGov18: {
+    org: "OECD", date: "2018", kind: "STI Working Paper",
+    title: "Issues in neurotechnology governance",
+    url: "https://www.oecd.org/content/dam/oecd/en/publications/reports/2018/05/issues-in-neurotechnology-governance_f46c8902/c3256cc6-en.pdf",
+    desc: "뇌-컴퓨터 인터페이스를 포함한 신경기술의 의료적 편익과 프라이버시·자율성·동의·인지통제 문제를 직접 다룹니다."
+  },
+  unescoNeuro25: {
+    org: "UNESCO", date: "2025.11.11", kind: "국제 윤리 권고",
+    title: "Recommendation on the Ethics of Neurotechnology",
+    url: "https://www.unesco.org/en/legal-affairs/recommendation-ethics-neurotechnology",
+    desc: "신경기술의 인권·자율성·정신적 프라이버시·안전·평등에 관한 국제 윤리 원칙을 제시합니다."
+  },
+  pwcAIJobs: {
+    org: "삼일PwC경영연구원", date: "Issue Brief", kind: "기업·노동시장",
+    title: "AI와 일자리의 미래",
+    url: "https://www.pwc.com/kr/ko/insights/issue-brief/ai-jobs-future.html",
+    desc: "AI가 생산성, 노동력 부족, 직무 대체·보완과 기업 인력전략에 미치는 영향을 기업 관점에서 정리합니다."
   }
 };
 
@@ -598,53 +749,53 @@ const RECOMMENDED_TOPICS = [
 
 const TOPIC_REPORTS = {
   // 한국은행 기출
-  "bok-2020-fomo": ["bokHouseExpect25", "bokHousingAge26", "bokStockWealth26"],
-  "bok-2021-money": ["kdicMoney25", "bokCBDC24"],
+  "bok-2020-fomo": ["kcmiRetailBehavior22", "bokHouseExpect25", "bokStockWealth26"],
+  "bok-2021-money": ["bokJoseonMoney", "kdicMoney25"],
   "bok-2022-pension": ["kdiPension24", "bokPopulationConsumption25"],
   "bok-2022-housing": ["bokHousingAsset22", "bokHousingRisk22", "bokHousingAge26"],
   "bok-2022-polarization": ["bokPolarization26", "bokAgingIneq23"],
   "bok-2023-region": ["bokRegion23", "bokRegionInheritance26", "bokRegion26"],
-  "bok-2024-ai-democracy": ["bokAILaw24", "kisdiElectionAI", "bokAI25"],
+  "bok-2024-ai-democracy": ["oecdAICitizen26", "oecdFactsNotFakes24", "bokAILaw24"],
   "bok-2022-inflation": ["bokInflationPolicy22", "bokInflationPersist22", "bokMonetary26"],
   "bok-2023-household-debt": ["bokFsr26", "bokHousehold26", "kdiHouseholdDemo25"],
   "bok-2023-bankrun": ["kdicBankrun24", "kdicBankResolution24", "bokFsr26"],
-  "bok-2024-aging-business": ["bokPopulationConsumption25", "bokEmployment25", "bokAgingIneq23"],
-  "bok-2024-climate": ["bokClimate21", "bokCarbonMacro21", "kdiCarbon24"],
+  "bok-2024-aging-business": ["pwcDemographic23", "pwcInsuranceAging24", "bokEmployment25"],
+  "bok-2024-climate": ["bisClimateRisk21", "bokClimate21", "bokCarbonMacro21"],
 
   // 금융감독원 기출
   "fss-2025-carbon-tax": ["bokCarbonMacro21", "kdiCarbonTax", "bokClimate21"],
-  "fss-basel3": ["bokBaselStd", "bokFsr24"],
+  "fss-basel3": ["bisBaselIII17", "bokBaselStd", "bokFsr24"],
 
   // 한국거래소 기출
   "krx-2019-ev": ["keximBattery", "batteryExport"],
-  "krx-2019-export": ["kdiOutlook26", "keximIndustry26"],
-  "krx-2020-trade-war": ["kiepUSChina25", "kiepTariff25"],
+  "krx-2019-export": ["kdiTradeStructure25", "kdiOutlook26", "keximIndustry26"],
+  "krx-2020-trade-war": ["kdiTradeConflict20", "kiepUSChina25", "kiepTariff25"],
   "krx-2020-selfemployed": ["kdiSelfEmployed20", "kdiOutlook26"],
-  "krx-2021-women": ["kdiWomen24", "bokEmployment25"],
+  "krx-2021-women": ["kdiWomen24", "pwcWomen24", "bokEmployment25"],
   "krx-2022-industry4": ["kdiFourthIndustry18", "kdiDigitalTransition", "bokAI26"],
-  "krx-2022-fakenews": ["kisdiFakeNews", "kisdiElectionAI"],
+  "krx-2022-fakenews": ["oecdFactsNotFakes24", "kisdiFakeNews", "kisdiElectionAI"],
   "krx-2023-crypto": ["fscCryptoProtection24", "bokStablecoin25", "kcmiCrossCrypto26"],
-  "krx-2023-virtualhuman": ["kisdiVirtualHuman", "bokAILaw24"],
+  "krx-2023-virtualhuman": ["kisdiVirtualHuman", "bokAILaw24", "oecdAICitizen26"],
   "krx-2024-shortselling": ["fscShortImprove24", "fscShort25"],
-  "krx-2024-valueup": ["fscValueup24", "kcmiValueup24", "kcmiValueup26"],
+  "krx-2024-valueup": ["fscValueup24", "fscESGFinal26", "kcmiGovDisclosure26"],
   "krx-2025-discount": ["kcmiValueup24", "kcmiGovernance24", "kcmiValueup26"],
   "krx-2025-treasury": ["kcmiTreasury24", "kcmiTreasuryLaw26"],
 
   // 신용보증기금 기출
-  "kodit-2025-project": ["koditCreditModel", "kcmiCorpFinance23"],
-  "kodit-2025-tariff": ["kiepTariff25", "kiepUSChina25", "keximIndustry26"],
-  "kodit-2025-intrapreneur": ["koditPublicInnovation", "koditPlan26"],
+  "kodit-2025-project": ["koditIndustryRisk", "koditCreditModel", "kcmiCorpFinance23"],
+  "kodit-2025-tariff": ["kiepTariff25", "kdiTradeConflict20", "keximIndustry26"],
+  "kodit-2025-intrapreneur": ["wefPublicEntrepreneur25", "koditPublicInnovation", "koditPlan26"],
   "kodit-rates-sme": ["koditRateRisk", "kcmiCorpFinance23", "koditPlan26"],
   "kodit-insolvency": ["koditCreditModel", "koditRateRisk"],
 
   // 예금보험공사·무역보험공사·산업은행 기출
-  "kdic-systemic": ["bokFsr22", "kdicBankrun24", "kdicBankResolution24"],
-  "kdic-safeasset": ["bokMonetary26", "bokFsr26"],
-  "kdic-social": ["kdicLimit25"],
-  "ksure-fs": ["ksureCredit", "ksureInsuranceGuide", "koditCreditModel"],
-  "kdb-2020-neuralink": ["kisdiBCI", "bokAILaw24"],
+  "kdic-systemic": ["bokFsr22Dec", "bokFsr22", "kdicFedTightening26"],
+  "kdic-safeasset": ["bisSafeAssets25", "bisSafeHaven09", "bokFsr26"],
+  "kdic-social": ["kdicSocial", "kdicCSRWhitepaper", "kdicLimit25"],
+  "ksure-fs": ["ksureCreditFAQ", "ksureCredit", "ksureInsuranceGuide"],
+  "kdb-2020-neuralink": ["oecdNeuroGov18", "unescoNeuro25", "kisdiBCI"],
   "kdb-2020-pandemic": ["kdiCovid21", "kdiPostCovid23", "kdiDigitalTransition"],
-  "kdb-ai-jobs": ["bokAI26", "bokAI25", "kdiDigitalTransition"],
+  "kdb-ai-jobs": ["bokAI26", "pwcAIJobs", "bokAI25"],
 
   // 추천 주제
   "rec-fx-overseas": ["bokOverseasFx", "bokFxExplain26", "bokFsr26"],
@@ -679,10 +830,12 @@ const state = {
   secondary: "all",
   query: "",
   noteOnly: false,
+  unreadOnly: false,
   activeTopicId: null
 };
 
 const NOTE_KEY = "financeTopicArchive.notes.v1";
+const READ_KEY = "financeTopicArchive.read.v1";
 const THEME_KEY = "financeTopicArchive.theme.v1";
 
 const el = {
@@ -692,6 +845,7 @@ const el = {
   typeFilters: document.getElementById("typeFilters"),
   secondaryFilters: document.getElementById("secondaryFilters"),
   noteOnlyCheckbox: document.getElementById("noteOnlyCheckbox"),
+  unreadOnlyCheckbox: document.getElementById("unreadOnlyCheckbox"),
   clearFiltersBtn: document.getElementById("clearFiltersBtn"),
   topicGrid: document.getElementById("topicGrid"),
   emptyState: document.getElementById("emptyState"),
@@ -699,9 +853,12 @@ const el = {
   pastCount: document.getElementById("pastCount"),
   recommendedCount: document.getElementById("recommendedCount"),
   noteCount: document.getElementById("noteCount"),
+  readCount: document.getElementById("readCount"),
+  studyProgressBar: document.getElementById("studyProgressBar"),
   backdrop: document.getElementById("backdrop"),
   drawer: document.getElementById("topicDrawer"),
   drawerCloseBtn: document.getElementById("drawerCloseBtn"),
+  readToggleBtn: document.getElementById("readToggleBtn"),
   drawerMeta: document.getElementById("drawerMeta"),
   drawerTitle: document.getElementById("drawerTitle"),
   drawerDescription: document.getElementById("drawerDescription"),
@@ -724,6 +881,28 @@ function saveNotes(notes) {
   localStorage.setItem(NOTE_KEY, JSON.stringify(notes));
   updateStats();
 }
+
+function getReadState() {
+  try { return JSON.parse(localStorage.getItem(READ_KEY) || "{}"); }
+  catch { return {}; }
+}
+
+function saveReadState(readState) {
+  localStorage.setItem(READ_KEY, JSON.stringify(readState));
+  updateStats();
+}
+
+function isRead(id) {
+  return Boolean(getReadState()[id]);
+}
+
+function setRead(id, value) {
+  const readState = getReadState();
+  if (value) readState[id] = true;
+  else delete readState[id];
+  saveReadState(readState);
+}
+
 function allTopics() { return [...PAST_TOPICS, ...RECOMMENDED_TOPICS]; }
 function currentTopics() { return state.view === "past" ? PAST_TOPICS : RECOMMENDED_TOPICS; }
 function topicById(id) { return allTopics().find(t => t.id === id); }
@@ -777,6 +956,7 @@ function filteredTopics() {
       return (state.view === "past" ? t.institution : t.category) === state.secondary;
     })
     .filter(t => !state.noteOnly || Boolean((notes[t.id] || "").trim()))
+    .filter(t => !state.unreadOnly || !isRead(t.id))
     .filter(t => {
       if (!state.query.trim()) return true;
       const haystack = [
@@ -796,25 +976,39 @@ function filteredTopics() {
 }
 
 function topicCard(t) {
+  const read = isRead(t.id);
   const noteMark = hasNote(t.id) ? `<span class="note-dot" title="메모 있음" aria-label="메모 있음"></span>` : "";
   const typeBadges = t.types.map(type => `<span class="badge type">${escapeHtml(type)}</span>`).join("");
   const context = state.view === "past"
     ? `${escapeHtml(t.institution)} · ${escapeHtml(t.year)}`
     : `${escapeHtml(t.category)} · 우선순위 ${escapeHtml(t.priority)}`;
   const priority = state.view === "recommended" ? `<span class="priority">P${t.priority}</span>` : noteMark;
+  const readLabel = read ? "읽음 표시 해제" : "읽음으로 표시";
+
   return `
-    <article class="topic-card" tabindex="0" role="button" data-id="${escapeHtml(t.id)}" aria-label="${escapeHtml(t.title)} 자세히 보기">
+    <article class="topic-card ${read ? "is-read" : ""}" tabindex="0" role="button" data-id="${escapeHtml(t.id)}" aria-label="${escapeHtml(t.title)} 자세히 보기">
       <div class="card-top">
         <div class="meta-pills">
           ${typeBadges}
           <span class="badge">${escapeHtml(t.category)}</span>
+          ${read ? `<span class="badge read-badge">읽음</span>` : ""}
         </div>
-        ${priority}
+        <div class="card-statuses">
+          ${priority}
+          <button
+            class="read-toggle-card ${read ? "is-active" : ""}"
+            type="button"
+            data-read-id="${escapeHtml(t.id)}"
+            aria-label="${readLabel}"
+            aria-pressed="${read}"
+            title="${readLabel}"
+          >${read ? "✓" : "○"}</button>
+        </div>
       </div>
       <h2>${escapeHtml(t.title)}</h2>
       <p class="card-subtitle">${escapeHtml(t.subtitle)}</p>
       <div class="card-bottom">
-        <span>${context}${state.view==="recommended" && hasNote(t.id) ? " · 메모 있음" : ""}</span>
+        <span>${context}${hasNote(t.id) ? " · 메모 있음" : ""}</span>
         <span class="card-arrow">↗</span>
       </div>
     </article>
@@ -826,13 +1020,18 @@ function renderTopics() {
   el.topicGrid.innerHTML = topics.map(topicCard).join("");
   el.emptyState.hidden = topics.length !== 0;
   const unit = state.view === "past" ? "기출" : "추천";
-  el.resultSummary.textContent = `${topics.length}개의 ${unit} 주제`;
+  const currentAll = currentTopics();
+  const readInView = currentAll.filter(t => isRead(t.id)).length;
+  el.resultSummary.textContent = `${topics.length}개의 ${unit} 주제 · 전체 ${currentAll.length}개 중 ${readInView}개 읽음`;
+  const ratio = currentAll.length ? (readInView / currentAll.length) * 100 : 0;
+  el.studyProgressBar.style.width = `${ratio}%`;
 }
 
 function updateStats() {
   el.pastCount.textContent = PAST_TOPICS.length;
   el.recommendedCount.textContent = RECOMMENDED_TOPICS.length;
   el.noteCount.textContent = Object.values(getNotes()).filter(v => String(v).trim()).length;
+  el.readCount.textContent = Object.values(getReadState()).filter(Boolean).length;
 }
 
 function renderResources(topic) {
@@ -862,6 +1061,24 @@ function renderResources(topic) {
   `).join("");
 }
 
+function updateDrawerReadButton(id) {
+  const read = isRead(id);
+  el.readToggleBtn.classList.toggle("is-active", read);
+  el.readToggleBtn.setAttribute("aria-pressed", String(read));
+  el.readToggleBtn.querySelector(".read-toggle-icon").textContent = read ? "✓" : "○";
+  el.readToggleBtn.querySelector(".read-toggle-label").textContent = read ? "읽음" : "읽지 않음";
+  el.readToggleBtn.title = read ? "읽음 표시 해제" : "읽음으로 표시";
+}
+
+function toggleRead(id) {
+  if (!id) return;
+  const next = !isRead(id);
+  setRead(id, next);
+  renderTopics();
+  if (state.activeTopicId === id) updateDrawerReadButton(id);
+  toast(next ? "읽은 주제로 표시했습니다." : "읽음 표시를 해제했습니다.");
+}
+
 function openDrawer(id) {
   const topic = topicById(id);
   if (!topic) return;
@@ -877,6 +1094,7 @@ function openDrawer(id) {
   el.topicNote.value = getNotes()[id] || "";
   el.saveStatus.textContent = el.topicNote.value.trim() ? "저장됨" : "아직 메모 없음";
   el.saveStatus.classList.remove("saving");
+  updateDrawerReadButton(id);
 
   el.backdrop.hidden = false;
   requestAnimationFrame(() => el.drawer.classList.add("open"));
@@ -923,34 +1141,53 @@ function clearCurrentNote() {
 function exportNotes() {
   const payload = {
     app: "Finance Topic Archive",
-    version: 1,
+    version: 2,
     exportedAt: new Date().toISOString(),
-    notes: getNotes()
+    notes: getNotes(),
+    read: getReadState()
   };
   const blob = new Blob([JSON.stringify(payload, null, 2)], {type:"application/json"});
   const url = URL.createObjectURL(blob);
   const a = document.createElement("a");
   const date = new Date().toISOString().slice(0,10);
   a.href = url;
-  a.download = `finance-topic-notes-${date}.json`;
+  a.download = `finance-topic-study-record-${date}.json`;
   a.click();
   URL.revokeObjectURL(url);
-  toast("노트 백업 파일을 만들었습니다.");
+  toast("메모와 읽음 진행상황을 백업했습니다.");
 }
 
 async function importNotes(file) {
   if (!file) return;
   try {
     const data = JSON.parse(await file.text());
-    const imported = data.notes && typeof data.notes === "object" ? data.notes : data;
-    if (!imported || typeof imported !== "object" || Array.isArray(imported)) throw new Error("invalid");
-    const merged = {...getNotes(), ...imported};
-    saveNotes(merged);
+
+    // v2: {notes, read}; v1/legacy: notes object itself or {notes}
+    const importedNotes = data.notes && typeof data.notes === "object" && !Array.isArray(data.notes)
+      ? data.notes
+      : (data.read ? {} : data);
+
+    if (!importedNotes || typeof importedNotes !== "object" || Array.isArray(importedNotes)) {
+      throw new Error("invalid");
+    }
+
+    const mergedNotes = {...getNotes(), ...importedNotes};
+    saveNotes(mergedNotes);
+
+    if (data.read && typeof data.read === "object" && !Array.isArray(data.read)) {
+      saveReadState({...getReadState(), ...data.read});
+    }
+
     renderTopics();
-    if (state.activeTopicId) el.topicNote.value = merged[state.activeTopicId] || "";
-    toast("노트를 가져왔습니다.");
+
+    if (state.activeTopicId) {
+      el.topicNote.value = mergedNotes[state.activeTopicId] || "";
+      updateDrawerReadButton(state.activeTopicId);
+    }
+
+    toast("학습기록을 가져왔습니다.");
   } catch {
-    toast("올바른 노트 JSON 파일이 아닙니다.");
+    toast("올바른 학습기록 JSON 파일이 아닙니다.");
   } finally {
     el.importNotesInput.value = "";
   }
@@ -979,8 +1216,10 @@ function resetFilters() {
   state.secondary = "all";
   state.query = "";
   state.noteOnly = false;
+  state.unreadOnly = false;
   el.searchInput.value = "";
   el.noteOnlyCheckbox.checked = false;
+  el.unreadOnlyCheckbox.checked = false;
   [...el.typeFilters.querySelectorAll(".chip")].forEach(btn => btn.classList.toggle("active", btn.dataset.type === "all"));
   renderSecondaryFilters();
   renderTopics();
@@ -1015,9 +1254,20 @@ el.noteOnlyCheckbox.addEventListener("change", e => {
   renderTopics();
 });
 
+el.unreadOnlyCheckbox.addEventListener("change", e => {
+  state.unreadOnly = e.target.checked;
+  renderTopics();
+});
+
 el.clearFiltersBtn.addEventListener("click", resetFilters);
 
 el.topicGrid.addEventListener("click", e => {
+  const readBtn = e.target.closest("[data-read-id]");
+  if (readBtn) {
+    e.stopPropagation();
+    toggleRead(readBtn.dataset.readId);
+    return;
+  }
   const card = e.target.closest(".topic-card");
   if (card) openDrawer(card.dataset.id);
 });
@@ -1029,6 +1279,7 @@ el.topicGrid.addEventListener("keydown", e => {
 });
 
 el.drawerCloseBtn.addEventListener("click", closeDrawer);
+el.readToggleBtn.addEventListener("click", () => toggleRead(state.activeTopicId));
 el.backdrop.addEventListener("click", closeDrawer);
 document.addEventListener("keydown", e => {
   if (e.key === "Escape" && el.drawer.classList.contains("open")) closeDrawer();

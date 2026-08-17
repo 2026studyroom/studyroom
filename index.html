@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
-  <meta name="description" content="금융공기업 기출·추천 주제를 공부하는 금융·거시경제 아카이브" />
+  <meta name="description" content="금융공기업 기출·추천 주제를 기관 1차 자료와 연결해 공부하는 금융·거시경제 아카이브" />
   <meta name="theme-color" content="#f5f3ee" />
   <title>Finance Topic Archive</title>
   <link rel="stylesheet" href="./styles.css" />
@@ -17,14 +17,14 @@
         <span class="brand-mark">F</span>
         <span>
           <strong>Finance Topic Archive</strong>
-          <small>기출에서 관련 자료로</small>
+          <small>기출에서 1차 자료로</small>
         </span>
       </a>
       <div class="header-actions">
         <button class="icon-btn" id="themeToggle" type="button" aria-label="다크 모드 전환">◐</button>
-        <button class="ghost-btn" id="exportNotesBtn" type="button">노트 내보내기</button>
+        <button class="ghost-btn" id="exportNotesBtn" type="button">학습기록 내보내기</button>
         <label class="ghost-btn file-label">
-          노트 가져오기
+          학습기록 가져오기
           <input id="importNotesInput" type="file" accept="application/json,.json" hidden />
         </label>
       </div>
@@ -35,10 +35,10 @@
     <section class="hero">
       <div class="hero-copy">
         <p class="eyebrow">FINANCE · MACRO · POLICY</p>
-        <h1>금융공기업<br />기출 아카이브</h1>
+        <h1>기출을 외우지 않고,<br />왜 나왔는지 공부하는 아카이브</h1>
         <p class="hero-description">
           금융공기업 기출과 시의성 있는 추천 주제를 한곳에 모으고,
-          각 주제를 한국은행·금융위원회·KDI·자본시장연구원 등 관련 자료로 연결합니다.
+          각 주제를 한국은행·금융위원회·KDI·자본시장연구원 등 1차 자료로 연결합니다.
           주제별 개인 메모는 브라우저에 자동 저장됩니다.
         </p>
       </div>
@@ -46,6 +46,7 @@
         <div><strong id="pastCount">0</strong><span>기출 주제</span></div>
         <div><strong id="recommendedCount">0</strong><span>추천 주제</span></div>
         <div><strong id="noteCount">0</strong><span>작성 노트</span></div>
+        <div><strong id="readCount">0</strong><span>읽은 주제</span></div>
       </div>
     </section>
 
@@ -69,17 +70,28 @@
             <button class="chip" data-type="PT">PT</button>
             <button class="chip" data-type="토론">토론</button>
           </div>
-          <label class="note-only">
-            <input id="noteOnlyCheckbox" type="checkbox" />
-            <span>메모 있는 주제만</span>
-          </label>
+          <div class="study-filter-group">
+            <label class="note-only">
+              <input id="noteOnlyCheckbox" type="checkbox" />
+              <span>메모 있는 주제만</span>
+            </label>
+            <label class="note-only">
+              <input id="unreadOnlyCheckbox" type="checkbox" />
+              <span>읽지 않은 주제만</span>
+            </label>
+          </div>
         </div>
 
         <div class="filter-scroller" id="secondaryFilters" aria-label="기관 또는 분야 필터"></div>
       </section>
 
       <div class="result-bar">
-        <p id="resultSummary">주제를 불러오는 중입니다.</p>
+        <div class="result-progress">
+          <p id="resultSummary">주제를 불러오는 중입니다.</p>
+          <div class="study-progress" aria-label="읽은 주제 진행률">
+            <span id="studyProgressBar"></span>
+          </div>
+        </div>
         <button id="clearFiltersBtn" class="text-btn" type="button">필터 초기화</button>
       </div>
 
@@ -107,7 +119,13 @@
         <p id="drawerMeta" class="drawer-meta"></p>
         <h2 id="drawerTitle">주제</h2>
       </div>
-      <button class="icon-btn" id="drawerCloseBtn" type="button" aria-label="닫기">×</button>
+      <div class="drawer-actions">
+        <button class="read-toggle-drawer" id="readToggleBtn" type="button" aria-pressed="false">
+          <span class="read-toggle-icon">○</span>
+          <span class="read-toggle-label">읽지 않음</span>
+        </button>
+        <button class="icon-btn" id="drawerCloseBtn" type="button" aria-label="닫기">×</button>
+      </div>
     </div>
 
     <div class="drawer-scroll">
@@ -118,7 +136,7 @@
 
       <section class="drawer-section">
         <div class="section-title-row">
-          <h3>공부할 관련 자료</h3>
+          <h3>공부할 1차 자료</h3>
           <span class="section-hint">새 탭에서 열립니다</span>
         </div>
         <div id="resourceList" class="resource-list"></div>
@@ -135,7 +153,7 @@
           placeholder="핵심 개념, 수치, 반론, 기관 관점 등을 자유롭게 적어두세요. 입력 내용은 이 브라우저에 자동 저장됩니다."
         ></textarea>
         <div class="note-footer">
-          <small>기기 간 자동 동기화는 되지 않습니다. 상단의 ‘노트 내보내기/가져오기’로 백업하거나 옮길 수 있습니다.</small>
+          <small>기기 간 자동 동기화는 되지 않습니다. 상단의 ‘학습기록 내보내기/가져오기’로 백업하거나 옮길 수 있습니다.</small>
           <button id="clearCurrentNoteBtn" class="text-btn danger" type="button">이 메모 삭제</button>
         </div>
       </section>
