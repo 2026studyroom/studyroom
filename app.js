@@ -43,7 +43,7 @@ const RESOURCE_CATALOG = {
     desc: "AI 확산이 생산성·노동시장·한국경제에 미치는 영향을 폭넓게 다룹니다."
   },
   bokOverseasFx: {
-    org: "한국은행", date: "금요강좌", kind: "강의·분석자료",
+    org: "한국은행", date: "2025.02.07", kind: "강의·분석자료",
     title: "우리나라 해외투자와 환율",
     url: "https://www.bok.or.kr/portal/bbs/B0000217/view.do?menuNo=200144&nttId=10089699",
     desc: "해외증권투자 확대가 외환수요와 원/달러 환율에 연결되는 경로를 설명합니다."
@@ -265,7 +265,7 @@ const RESOURCE_CATALOG = {
     desc: "P-CBO 직접발행 등 신보의 2026년 정책금융 추진방향을 확인할 수 있습니다."
   },
   koditCreditModel: {
-    org: "신용보증기금", date: "연구자료", kind: "신용위험",
+    org: "신용보증기금", date: "2024.12", kind: "신용위험",
     title: "스코어 얼라인먼트 기반 중소기업 부도예측모형의 운영 효율화",
     url: "https://www.kodit.co.kr/common/fileDownload.do?fileKey=f319066ee2a41a80500c2ef84d4ca89f",
     desc: "기업 신용평가·부도예측모형이 실제 보증·대출 판단에 어떻게 활용되는지 살펴볼 수 있습니다."
@@ -447,7 +447,7 @@ const RESOURCE_CATALOG = {
     desc: "기업가치 제고 계획, 공시, 인센티브, 밸류업 지수 등 프로그램의 핵심 구조를 직접 확인할 수 있습니다."
   },
   kcmiTreasury24: {
-    org: "자본시장연구원", date: "연구보고서", kind: "자기주식",
+    org: "자본시장연구원", date: "2024.07.16", kind: "자기주식",
     title: "주주가치 제고를 위한 자기주식 제도의 개선과제",
     url: "https://www.kcmi.re.kr/report/report_view?report_no=1792",
     desc: "자사주 취득·보유·처분·소각이 주주가치에 미치는 영향과 제도 개선방향을 직접 분석합니다."
@@ -477,7 +477,7 @@ const RESOURCE_CATALOG = {
     desc: "가짜뉴스·허위조작정보와 플랫폼 신뢰, 규제 대응을 직접 다룹니다."
   },
   kisdiElectionAI: {
-    org: "정보통신정책연구원", date: "연구자료", kind: "AI·민주주의",
+    org: "정보통신정책연구원", date: "2024.05.31", kind: "AI·민주주의",
     title: "허위정보 시대의 선거 개입과 인공지능",
     url: "https://www.kisdi.re.kr/report/fileView.do?arrMasterId=3934550&id=1761276&key=m2101113025536",
     desc: "AI·허위정보가 선거와 민주적 의사결정에 미치는 위험을 직접 다룹니다."
@@ -664,7 +664,7 @@ const RESOURCE_CATALOG = {
     desc: "신경기술의 인권·자율성·정신적 프라이버시·안전·평등에 관한 국제 윤리 원칙을 제시합니다."
   },
   pwcAIJobs: {
-    org: "삼일PwC경영연구원", date: "Issue Brief", kind: "기업·노동시장",
+    org: "삼일PwC경영연구원", date: "2025.09", kind: "기업·노동시장",
     title: "AI와 일자리의 미래",
     url: "https://www.pwc.com/kr/ko/insights/issue-brief/ai-jobs-future.html",
     desc: "AI가 생산성, 노동력 부족, 직무 대체·보완과 기업 인력전략에 미치는 영향을 기업 관점에서 정리합니다."
@@ -693,6 +693,115 @@ const RESOURCE_CATALOG = {
     title: "최근 우리나라의 금융안정 상황 평가 — 자영업자 대출·부채 위험",
     url: "https://www.bok.or.kr/portal/bbs/B0000217/view.do?depth=200144&menuNo=200144&nttId=10096258&programType=multiCont&relate=Y",
     desc: "최근 자영업자 대출, 연령별 취약성, 비은행 익스포저와 생애주기별 정책지원 필요성을 한국은행 금융안정 관점에서 설명합니다."
+  },
+
+  bisBasel26: {
+    org: "BIS / BCBS", date: "2026.03.24", kind: "Basel III 모니터링 보고서",
+    title: "Basel III monitoring report",
+    url: "https://www.bis.org/bcbs/publ/d609.htm",
+    desc: "바젤Ⅲ 최종개혁안 시행이 은행 자본·유동성·레버리지 비율에 미친 영향을 2026년 기준으로 점검한 BCBS 최신 공식 보고서입니다."
+  },
+  motieEVBattery25: {
+    org: "산업통상자원부", date: "2025.01.16", kind: "정책·산업 동향",
+    title: "한눈에 보는 2024년 자동차 산업 동향 — 친환경차·이차전지 경쟁력 강화방안",
+    url: "https://www.motie.go.kr/kor/article/ATCL3f49a5a8c/170049/view?displayAuthor=&endDtD=&mno=&pageIndex=1&rowPageC=0&schClear=on&searchCategory=0&searchCondition=1&searchKeyword=&startDtD=",
+    desc: "전기차 캐즘, 첨단 기술력, 이차전지 생태계, 대외 불확실성 대응 등 정부의 최신 산업정책 방향을 확인할 수 있습니다."
+  },
+  motieAutoExport26: {
+    org: "산업통상자원부", date: "2026.01.15", kind: "보도자료",
+    title: "2025년 자동차 수출액 720억불로 역대 최대",
+    url: "https://www.motie.go.kr/attach/down/095a2dda9c864e1d90d751f7668a1117/4834ff5b2b16fef839c67fac4498f452/9a9db098b587ee18b321c826f3707a49",
+    desc: "최근 자동차·전기차 수출 실적과 친환경차·이차전지 경쟁력 강화정책의 실행 흐름을 함께 볼 수 있습니다."
+  },
+  kdiAI26: {
+    org: "KDI", date: "2026.07.20", kind: "연구보고서",
+    title: "AI의 거시경제 영향 분석",
+    url: "https://www.kdi.re.kr/research/reportView?pub_no=19237",
+    desc: "생성형 AI의 과업 자동화 가능성, 생산성, 기업성과, 고용·임금분포와 거시경제 파급효과를 2026년 기준으로 종합 분석합니다."
+  },
+  kisdiAIContent26: {
+    org: "정보통신정책연구원", date: "2026.01.01", kind: "정책동향",
+    title: "인공지능 생성물 고지 및 표시 제도",
+    url: "https://www.kisdi.re.kr/report/fileDown.do?arrMasterId=4333446&id=1909397&key=m2101113025377",
+    desc: "AI 기본법 시행에 따른 생성형 AI·딥페이크 콘텐츠 고지 및 표시 의무를 다루는 최신 정책자료입니다."
+  },
+  kisdiPlatform26: {
+    org: "정보통신정책연구원", date: "2026", kind: "연구보고서",
+    title: "지능정보사회 플랫폼 자율규제 활성화",
+    url: "https://www.kisdi.re.kr/report/fileView.do?arrMasterId=3934580&id=1949196&key=m2101113024770",
+    desc: "허위조작정보, AI 생성물 표시, 추천시스템의 책임과 플랫폼 자율규제 방안을 다룹니다."
+  },
+  kisdiMediaAI24: {
+    org: "정보통신정책연구원", date: "2024.10.31", kind: "정책연구",
+    title: "생성형 AI가 미디어 분야에 미칠 영향",
+    url: "https://www.kisdi.re.kr/report/view.do?arrMasterId=3934550&artId=1789516&key=m2101113025536&masterId=3934550",
+    desc: "생성형 AI가 콘텐츠 생산성, 정보 신뢰성, 저작권, 개인정보, 공정경쟁과 미디어 정책에 미치는 영향을 분석합니다."
+  },
+  kisdiAIProtect25: {
+    org: "정보통신정책연구원", date: "2025", kind: "정책연구",
+    title: "AI 이용자 보호 및 공정한 산업환경 조성 방안 연구",
+    url: "https://m.kisdi.re.kr/report/view.do?arrMasterId=3934580&artId=1930036&key=m2101113024770&masterId=3934580",
+    desc: "AI 서비스 이용자 권익, 생성물 표시, 알고리즘 책임과 공정한 AI 산업환경을 위한 정책과제를 제시합니다."
+  },
+  koditFacilityRisk24: {
+    org: "신용보증기금", date: "2024.09", kind: "중소기업금융연구",
+    title: "기업 재무자료를 활용한 설비건설기업 부실위험예측에 관한 연구",
+    url: "https://www.kodit.co.kr/common/nttFileDownload.do?fileKey=e5ec066c5475b27ce512b4e21a5ae5db",
+    desc: "재무자료를 이용해 설비건설기업의 부실위험을 예측하고 등급화한 연구로, 대출·보증 승인 케이스와 직접 연결됩니다."
+  },
+  koditStartupDefault24: {
+    org: "신용보증기금", date: "2024.09", kind: "중소기업금융연구",
+    title: "머신러닝을 이용한 창업기업의 대출부도 예측",
+    url: "https://www.kodit.or.kr/common/nttFileDownload.do?fileKey=b2f6332e2b1b227ae9a1b19a7d6b787c",
+    desc: "창업기업 대출부도를 예측하는 요인과 모형을 비교하여 기업 부실예측기법 논제에 활용하기 좋습니다."
+  },
+  koditClosure24: {
+    org: "신용보증기금", date: "2024.06", kind: "중소기업금융연구",
+    title: "거시경제 변수를 활용한 서울 소상공인 폐업률 영향요인 분석",
+    url: "https://www.kodit.or.kr/common/nttFileDownload.do?fileKey=9655f6d5c21a6e9862703419d0e916af",
+    desc: "금리·경기 등 거시경제 여건과 소상공인 폐업률의 관계를 분석해 고금리·저성장 취약성 논제에 활용할 수 있습니다."
+  },
+  koditRegionFinance25: {
+    org: "신용보증기금", date: "2025.06", kind: "중소기업금융연구",
+    title: "인구구조 변화가 지역 금융시장에 미치는 영향 및 신용보증기금의 역할",
+    url: "https://www.kodit.co.kr/common/fileDownload.do?fileKey=62bd0fd9bec3269f9bd96662e4d64aba",
+    desc: "고령화·지역소멸과 지역 금융시장의 변화, 신보의 정책금융 역할을 2025년 기준으로 분석합니다."
+  },
+  koditPcboCurrent: {
+    org: "신용보증기금", date: "현재 제도", kind: "공식 제도 안내",
+    title: "유동화회사보증(P-CBO) 제도 안내",
+    url: "https://www.kodit.co.kr/kodit/cm/cntnts/cntntsView.do?cntntsId=11254&mi=2826",
+    desc: "오래된 P-CBO 연구논문 대신 현재 운영 중인 신용보증기금의 P-CBO 구조와 지원방식을 직접 확인합니다."
+  },
+  kdcaPandemic25: {
+    org: "질병관리청", date: "2025.04.15", kind: "정부 백서",
+    title: "코로나19 4년간의 기록, 다음 팬데믹을 위한 교훈",
+    url: "https://kdca.go.kr/bbs/eng/189/225944/download.do",
+    desc: "코로나19 위기 대응, 일상 회복, 정책결정 과정과 향후 감염병 위기 대응과제를 정리한 2025년 정부 백서입니다."
+  },
+  kdcaCovid26: {
+    org: "질병관리청", date: "2026", kind: "공식 현황",
+    title: "코로나19 발생현황",
+    url: "https://dportal.kdca.go.kr/pot/cv/trend/dmstc/selectMntrgSttus.do",
+    desc: "2026년까지 갱신된 국내외 코로나19 발생 현황과 공식 통계를 확인할 수 있는 질병관리청 페이지입니다."
+  },
+  kcmiInflation26: {
+    org: "자본시장연구원", date: "2026.01.22", kind: "연구자료",
+    title: "중앙은행의 정책적 관심사의 다변화와 물가안정",
+    url: "https://eiec.kdi.re.kr/policy/domesticView.do?ac=0000202197",
+    desc: "중앙은행의 물가안정 책무와 금융안정·성장 등 복수 목표가 인플레이션 관리 성과와 어떻게 연결되는지 분석합니다."
+  },
+  natureNeuro25: {
+    org: "Nature", date: "2025", kind: "과학 전문기사",
+    title: "Brain-reading devices raise ethical dilemmas — researchers propose protections",
+    url: "https://www.nature.com/articles/d41586-025-01679-8",
+    desc: "뇌-컴퓨터 인터페이스와 신경데이터가 제기하는 프라이버시·자율성·인권 쟁점을 최신 국제 논의와 함께 설명합니다."
+  },
+  bokClimateStrategyCurrent: {
+    org: "한국은행", date: "현재 정책", kind: "공식 정책 안내",
+    title: "한국은행의 기후변화 대응",
+    url: "https://www.bok.or.kr/portal/main/contents.do?menuNo=201706",
+    desc: "연구논문이 아닌 한국은행의 현재 기후리스크 대응체계와 정책 방향을 확인할 수 있는 공식 안내페이지입니다."
   }
 };
 
@@ -774,53 +883,53 @@ const RECOMMENDED_TOPICS = [
 
 const TOPIC_REPORTS = {
   // 한국은행 기출
-  "bok-2020-fomo": ["bokHouseExpect25", "kcmiRetailBehavior22", "bokStockWealth26"],
+  "bok-2020-fomo": ["bokHouseExpect25", "bokStockWealth26"],
   "bok-2021-money": ["bokJoseonMoney", "kdicMoney25"],
   "bok-2022-pension": ["naboPension25", "naboPension26", "kdiPension24"],
-  "bok-2022-housing": ["bokHousingAge26", "bokFsr26", "bokHousingRisk22"],
-  "bok-2022-polarization": ["bokPolarization26", "bokAgingIneq23"],
-  "bok-2023-region": ["bokRegionInheritance26", "bokRegion26", "bokRegion23"],
-  "bok-2024-ai-democracy": ["oecdAICitizen26", "oecdFactsNotFakes24", "bokAILaw24"],
-  "bok-2022-inflation": ["bokInflationPolicy22", "bokMonetary26", "bokInflationPersist22"],
+  "bok-2022-housing": ["bokHousingAge26", "bokFsr26"],
+  "bok-2022-polarization": ["bokPolarization26", "bokPopulationConsumption25"],
+  "bok-2023-region": ["bokRegionInheritance26", "bokRegion26"],
+  "bok-2024-ai-democracy": ["oecdAICitizen26", "oecdFactsNotFakes24", "kisdiElectionAI"],
+  "bok-2022-inflation": ["bokMonetary26", "kcmiInflation26", "kdiOutlook26"],
   "bok-2023-household-debt": ["bokFsr26", "bokHousehold26", "kdiHouseholdDemo25"],
-  "bok-2023-bankrun": ["kdicBankrun24", "bokFsr26", "kdicBankResolution24"],
-  "bok-2024-aging-business": ["bokEmployment25", "bokPopulationConsumption25", "pwcDemographic23"],
-  "bok-2024-climate": ["bokClimateReal24", "bokClimate21", "bisClimateRisk21"],
+  "bok-2023-bankrun": ["bokFsr26", "kdicBankrun24", "kdicBankResolution24"],
+  "bok-2024-aging-business": ["bokEmployment25", "bokPopulationConsumption25", "pwcInsuranceAging24"],
+  "bok-2024-climate": ["bokClimateReal24", "bokFsr26", "bokClimateStrategyCurrent"],
 
   // 금융감독원 기출
-  "fss-2025-carbon-tax": ["bokCarbonMacro21", "kdiCarbonTax", "bokClimateReal24"],
-  "fss-basel3": ["bokFsr24", "bisBaselIII17", "bokBaselStd"],
+  "fss-2025-carbon-tax": ["kdiCarbonTax", "bokClimateReal24", "bokClimateStrategyCurrent"],
+  "fss-basel3": ["bisBasel26", "bokFsr24"],
 
   // 한국거래소 기출
-  "krx-2019-ev": ["keximBattery", "batteryExport"],
+  "krx-2019-ev": ["motieEVBattery25", "motieAutoExport26", "keximIndustry26"],
   "krx-2019-export": ["kdiTradeStructure25", "keximIndustry26", "kdiOutlook26"],
-  "krx-2020-trade-war": ["kiepUSChina25", "kiepTariff25", "kdiTradeConflict20"],
-  "krx-2020-selfemployed": ["bokSelfEmployed26", "kdiSelfEmployed20", "kdiOutlook26"],
-  "krx-2021-women": ["kdiWomen24", "bokEmployment25", "pwcWomen24"],
-  "krx-2022-industry4": ["bokAI26", "kdiDigitalTransition", "kdiFourthIndustry18"],
-  "krx-2022-fakenews": ["oecdFactsNotFakes24", "kisdiFakeNews", "kisdiElectionAI"],
+  "krx-2020-trade-war": ["kiepUSChina25", "kiepTariff25", "kiepWorld26"],
+  "krx-2020-selfemployed": ["bokSelfEmployed26", "koditClosure24", "kdiOutlook26"],
+  "krx-2021-women": ["bokEmployment25", "kdiWomen24", "pwcWomen24"],
+  "krx-2022-industry4": ["kdiAI26", "bokAI26", "kisdiMediaAI24"],
+  "krx-2022-fakenews": ["oecdFactsNotFakes24", "kisdiAIContent26", "kisdiElectionAI"],
   "krx-2023-crypto": ["fscCryptoProtection24", "bokStablecoin25", "kcmiCrossCrypto26"],
-  "krx-2023-virtualhuman": ["kisdiVirtualHuman", "oecdAICitizen26", "bokAILaw24"],
+  "krx-2023-virtualhuman": ["kisdiMediaAI24", "kisdiAIProtect25", "oecdAICitizen26"],
   "krx-2024-shortselling": ["fscShort25", "fscShortImprove24"],
   "krx-2024-valueup": ["kcmiValueup26", "fscESGFinal26", "fscValueup24"],
   "krx-2025-discount": ["kcmiValueup26", "kcmiGovDisclosure26", "kcmiValueup24"],
   "krx-2025-treasury": ["kcmiTreasuryLaw26", "kcmiTreasury24"],
 
   // 신용보증기금 기출
-  "kodit-2025-project": ["koditIndustryRisk", "koditCreditModel", "kcmiCorpFinance23"],
+  "kodit-2025-project": ["koditFacilityRisk24", "koditCreditModel"],
   "kodit-2025-tariff": ["kiepTariff25", "kiepUSChina25", "keximIndustry26"],
-  "kodit-2025-intrapreneur": ["koditPlan26", "wefPublicEntrepreneur25", "koditPublicInnovation"],
-  "kodit-rates-sme": ["koditRateRisk", "koditPlan26", "kcmiCorpFinance23"],
-  "kodit-insolvency": ["koditCreditModel", "koditRateRisk"],
+  "kodit-2025-intrapreneur": ["koditPlan26", "wefPublicEntrepreneur25"],
+  "kodit-rates-sme": ["koditClosure24", "koditCreditModel", "koditPlan26"],
+  "kodit-insolvency": ["koditCreditModel", "koditStartupDefault24", "koditFacilityRisk24"],
 
   // 예금보험공사·무역보험공사·산업은행 기출
-  "kdic-systemic": ["bokFsr26", "bokFsr22Dec", "kdicFedTightening26"],
-  "kdic-safeasset": ["bisSafeAssets25", "bokFsr26", "bisSafeHaven09"],
-  "kdic-social": ["kdicSocial", "kdicCSRWhitepaper", "kdicLimit25"],
+  "kdic-systemic": ["bokFsr26", "kdicFedTightening26"],
+  "kdic-safeasset": ["bisSafeAssets25", "bokFsr26"],
+  "kdic-social": ["kdicSocial", "kdicLimit25"],
   "ksure-fs": ["ksureCreditFAQ", "ksureCredit", "ksureInsuranceGuide"],
-  "kdb-2020-neuralink": ["unescoNeuro25", "oecdNeuroGov18", "kisdiBCI"],
-  "kdb-2020-pandemic": ["kdiPostCovid23", "kdiCovid21", "kdiDigitalTransition"],
-  "kdb-ai-jobs": ["bokAI26", "bokAI25", "pwcAIJobs"],
+  "kdb-2020-neuralink": ["unescoNeuro25", "natureNeuro25"],
+  "kdb-2020-pandemic": ["kdcaPandemic25", "kdcaCovid26"],
+  "kdb-ai-jobs": ["bokAI26", "kdiAI26", "bokAI25"],
 
   // 추천 주제
   "rec-fx-overseas": ["bokOverseasFx", "bokFxExplain26", "bokFsr26"],
@@ -828,25 +937,25 @@ const TOPIC_REPORTS = {
   "rec-stablecoin": ["bokStablecoin25", "kcmiStableFx25", "kcmiStableTreasury25"],
   "rec-household-debt": ["bokFsr26", "bokHousehold26", "kdiHouseholdDemo25"],
   "rec-stock-wealth": ["bokStockWealth26", "bokMonetary26"],
-  "rec-governance": ["kcmiGovernance24", "kcmiValueup24", "fscValueup24"],
+  "rec-governance": ["kcmiValueup26", "kcmiGovernance24", "fscValueup24"],
   "rec-guidance": ["kcmiValueup26", "fscValueup24"],
   "rec-shortselling-2026": ["fscShort25", "fscShortImprove24"],
-  "rec-ai-labor": ["bokAI26", "bokAI25", "bokEmployment25"],
+  "rec-ai-labor": ["bokAI26", "kdiAI26", "bokAI25"],
   "rec-ai-finance": ["fscAI24", "fscAirgap24", "bokAI26"],
-  "rec-data-scraping": ["fscMydataGuide21", "fscMydata2", "fscAirgap24"],
+  "rec-data-scraping": ["fscMydata2", "fscAirgap24"],
   "rec-tariffs": ["kiepTariff25", "kiepUSChina25", "kiepWorld26"],
   "rec-semiconductor": ["keximSemi26", "keximIndustry26", "kdiOutlook26"],
   "rec-fx-hours": ["kcmiFxHours26", "bokFxExplain26"],
   "rec-deposit-limit": ["kdicLimit25", "kdicBankResolution24", "kdicBankrun24"],
   "rec-bank-resolution": ["kdicBankResolution24", "kdicBankrun24", "bokFsr26"],
-  "rec-sme-credit": ["koditRateRisk", "koditCreditModel", "kcmiCorpFinance23"],
-  "rec-pcbo": ["koditPcbo", "koditPlan26", "kcmiCorpFinance23"],
-  "rec-climate": ["bokClimate21", "bokCarbonMacro21", "kdiCarbon24"],
-  "rec-carbon-border": ["kiepCbam26", "kiepCbamSme", "kdiCarbon24"],
-  "rec-lowbirth-region": ["bokRegionInheritance26", "bokRegion23", "bokPopulationConsumption25"],
-  "rec-pension": ["kdiPension24", "bokPopulationConsumption25"],
+  "rec-sme-credit": ["koditClosure24", "koditCreditModel", "koditRegionFinance25"],
+  "rec-pcbo": ["koditPcboCurrent", "koditPlan26"],
+  "rec-climate": ["bokClimateReal24", "bokFsr26", "bokClimateStrategyCurrent"],
+  "rec-carbon-border": ["kiepCbam26", "bokClimateReal24"],
+  "rec-lowbirth-region": ["bokRegionInheritance26", "bokRegion26", "bokPopulationConsumption25"],
+  "rec-pension": ["naboPension25", "naboPension26", "kdiPension24"],
   "rec-cbdc": ["bokCBDC24", "bokStablecoin25", "kcmiStableTreasury25"],
-  "rec-capitalmarket-growth": ["kcmiSmallIB26", "kcmiUnicorn24", "kcmiCorpFinance23"]
+  "rec-capitalmarket-growth": ["kcmiSmallIB26", "kcmiUnicorn24"]
 };
 
 const state = {
@@ -1083,9 +1192,43 @@ function resourceLabel(resource, index) {
   return "심화 자료";
 }
 
+function extractResourceYear(resource) {
+  const match = String(resource.date || "").match(/20\d{2}/);
+  return match ? Number(match[0]) : null;
+}
+
+function isCurrentOfficialPage(resource) {
+  const kind = String(resource.kind || "").toLowerCase();
+  return [
+    "공식 제도 안내", "공식 업무안내", "공식 안내자료", "공식 faq",
+    "공식 현황", "공식 정책 안내", "공식 사회책임 자료", "보도자료",
+    "정책방안", "로드맵"
+  ].some(label => kind.includes(label));
+}
+
+function isResearchMaterial(resource) {
+  if (isCurrentOfficialPage(resource)) return false;
+  const kind = String(resource.kind || "").toLowerCase();
+  const researchKinds = [
+    "연구", "논문", "보고서", "이슈노트", "focus", "포커스",
+    "working paper", "issue brief", "전망", "분석", "정책동향",
+    "조사통계", "중소기업금융연구", "정부 백서", "백서"
+  ];
+  return researchKinds.some(word => kind.includes(word));
+}
+
+function isFreshEnough(resource) {
+  if (!isResearchMaterial(resource)) return true;
+  const year = extractResourceYear(resource);
+  return year !== null && year >= 2024;
+}
+
 function renderResources(topic) {
   const keys = TOPIC_REPORTS[topic.id] || topic.resources || [];
-  const resources = keys.map(key => RESOURCE_CATALOG[key]).filter(Boolean);
+  const resources = keys
+    .map(key => RESOURCE_CATALOG[key])
+    .filter(Boolean)
+    .filter(isFreshEnough);
 
   if (!resources.length) {
     el.resourceList.innerHTML = `<p class="card-subtitle">아직 직접 연결한 자료가 없습니다.</p>`;
