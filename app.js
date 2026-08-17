@@ -668,6 +668,31 @@ const RESOURCE_CATALOG = {
     title: "AI와 일자리의 미래",
     url: "https://www.pwc.com/kr/ko/insights/issue-brief/ai-jobs-future.html",
     desc: "AI가 생산성, 노동력 부족, 직무 대체·보완과 기업 인력전략에 미치는 영향을 기업 관점에서 정리합니다."
+  },
+
+  naboPension25: {
+    org: "국회예산정책처", date: "2025.06.09", kind: "분석보고서",
+    title: "2025년 「국민연금법」 개정의 재정 및 정책효과 분석",
+    url: "https://www.nabo.go.kr/ko/report/projectionView.do?idx=8754&key=2509110009",
+    desc: "2025년 연금개혁의 보험료율·소득대체율 변화, 기금소진 시점, 세대간 부담과 후속 정책과제를 공식적으로 분석합니다."
+  },
+  naboPension26: {
+    org: "국회예산정책처", date: "2026.06.18", kind: "NABO Focus",
+    title: "기금운용실적 개선에 따른 국민연금 재정 수정전망",
+    url: "https://www.nabo.go.kr/board/file/bulkDown.do?bid=68&idx=9301",
+    desc: "2025년 연금개혁 이후 실제 기금운용 실적을 반영해 국민연금 재정전망을 2026년 기준으로 갱신합니다."
+  },
+  bokClimateReal24: {
+    org: "한국은행", date: "2024.11.04", kind: "BOK 이슈노트",
+    title: "기후변화 리스크가 실물경제에 미치는 영향",
+    url: "https://www.bok.or.kr/portal/bbs/P0002353/view.do?menuNo=200433&nttId=10087798",
+    desc: "물리적 리스크와 탄소가격 정책에 따른 이행리스크가 성장·산업·거시경제에 미치는 영향을 직접 분석합니다."
+  },
+  bokSelfEmployed26: {
+    org: "한국은행", date: "2026.01.23", kind: "금융안정 정책강좌",
+    title: "최근 우리나라의 금융안정 상황 평가 — 자영업자 대출·부채 위험",
+    url: "https://www.bok.or.kr/portal/bbs/B0000217/view.do?depth=200144&menuNo=200144&nttId=10096258&programType=multiCont&relate=Y",
+    desc: "최근 자영업자 대출, 연령별 취약성, 비은행 익스포저와 생애주기별 정책지원 필요성을 한국은행 금융안정 관점에서 설명합니다."
   }
 };
 
@@ -749,53 +774,53 @@ const RECOMMENDED_TOPICS = [
 
 const TOPIC_REPORTS = {
   // 한국은행 기출
-  "bok-2020-fomo": ["kcmiRetailBehavior22", "bokHouseExpect25", "bokStockWealth26"],
+  "bok-2020-fomo": ["bokHouseExpect25", "kcmiRetailBehavior22", "bokStockWealth26"],
   "bok-2021-money": ["bokJoseonMoney", "kdicMoney25"],
-  "bok-2022-pension": ["kdiPension24", "bokPopulationConsumption25"],
-  "bok-2022-housing": ["bokHousingAsset22", "bokHousingRisk22", "bokHousingAge26"],
+  "bok-2022-pension": ["naboPension25", "naboPension26", "kdiPension24"],
+  "bok-2022-housing": ["bokHousingAge26", "bokFsr26", "bokHousingRisk22"],
   "bok-2022-polarization": ["bokPolarization26", "bokAgingIneq23"],
-  "bok-2023-region": ["bokRegion23", "bokRegionInheritance26", "bokRegion26"],
+  "bok-2023-region": ["bokRegionInheritance26", "bokRegion26", "bokRegion23"],
   "bok-2024-ai-democracy": ["oecdAICitizen26", "oecdFactsNotFakes24", "bokAILaw24"],
-  "bok-2022-inflation": ["bokInflationPolicy22", "bokInflationPersist22", "bokMonetary26"],
+  "bok-2022-inflation": ["bokInflationPolicy22", "bokMonetary26", "bokInflationPersist22"],
   "bok-2023-household-debt": ["bokFsr26", "bokHousehold26", "kdiHouseholdDemo25"],
-  "bok-2023-bankrun": ["kdicBankrun24", "kdicBankResolution24", "bokFsr26"],
-  "bok-2024-aging-business": ["pwcDemographic23", "pwcInsuranceAging24", "bokEmployment25"],
-  "bok-2024-climate": ["bisClimateRisk21", "bokClimate21", "bokCarbonMacro21"],
+  "bok-2023-bankrun": ["kdicBankrun24", "bokFsr26", "kdicBankResolution24"],
+  "bok-2024-aging-business": ["bokEmployment25", "bokPopulationConsumption25", "pwcDemographic23"],
+  "bok-2024-climate": ["bokClimateReal24", "bokClimate21", "bisClimateRisk21"],
 
   // 금융감독원 기출
-  "fss-2025-carbon-tax": ["bokCarbonMacro21", "kdiCarbonTax", "bokClimate21"],
-  "fss-basel3": ["bisBaselIII17", "bokBaselStd", "bokFsr24"],
+  "fss-2025-carbon-tax": ["bokCarbonMacro21", "kdiCarbonTax", "bokClimateReal24"],
+  "fss-basel3": ["bokFsr24", "bisBaselIII17", "bokBaselStd"],
 
   // 한국거래소 기출
   "krx-2019-ev": ["keximBattery", "batteryExport"],
-  "krx-2019-export": ["kdiTradeStructure25", "kdiOutlook26", "keximIndustry26"],
-  "krx-2020-trade-war": ["kdiTradeConflict20", "kiepUSChina25", "kiepTariff25"],
-  "krx-2020-selfemployed": ["kdiSelfEmployed20", "kdiOutlook26"],
-  "krx-2021-women": ["kdiWomen24", "pwcWomen24", "bokEmployment25"],
-  "krx-2022-industry4": ["kdiFourthIndustry18", "kdiDigitalTransition", "bokAI26"],
+  "krx-2019-export": ["kdiTradeStructure25", "keximIndustry26", "kdiOutlook26"],
+  "krx-2020-trade-war": ["kiepUSChina25", "kiepTariff25", "kdiTradeConflict20"],
+  "krx-2020-selfemployed": ["bokSelfEmployed26", "kdiSelfEmployed20", "kdiOutlook26"],
+  "krx-2021-women": ["kdiWomen24", "bokEmployment25", "pwcWomen24"],
+  "krx-2022-industry4": ["bokAI26", "kdiDigitalTransition", "kdiFourthIndustry18"],
   "krx-2022-fakenews": ["oecdFactsNotFakes24", "kisdiFakeNews", "kisdiElectionAI"],
   "krx-2023-crypto": ["fscCryptoProtection24", "bokStablecoin25", "kcmiCrossCrypto26"],
-  "krx-2023-virtualhuman": ["kisdiVirtualHuman", "bokAILaw24", "oecdAICitizen26"],
-  "krx-2024-shortselling": ["fscShortImprove24", "fscShort25"],
-  "krx-2024-valueup": ["fscValueup24", "fscESGFinal26", "kcmiGovDisclosure26"],
-  "krx-2025-discount": ["kcmiValueup24", "kcmiGovernance24", "kcmiValueup26"],
-  "krx-2025-treasury": ["kcmiTreasury24", "kcmiTreasuryLaw26"],
+  "krx-2023-virtualhuman": ["kisdiVirtualHuman", "oecdAICitizen26", "bokAILaw24"],
+  "krx-2024-shortselling": ["fscShort25", "fscShortImprove24"],
+  "krx-2024-valueup": ["kcmiValueup26", "fscESGFinal26", "fscValueup24"],
+  "krx-2025-discount": ["kcmiValueup26", "kcmiGovDisclosure26", "kcmiValueup24"],
+  "krx-2025-treasury": ["kcmiTreasuryLaw26", "kcmiTreasury24"],
 
   // 신용보증기금 기출
   "kodit-2025-project": ["koditIndustryRisk", "koditCreditModel", "kcmiCorpFinance23"],
-  "kodit-2025-tariff": ["kiepTariff25", "kdiTradeConflict20", "keximIndustry26"],
-  "kodit-2025-intrapreneur": ["wefPublicEntrepreneur25", "koditPublicInnovation", "koditPlan26"],
-  "kodit-rates-sme": ["koditRateRisk", "kcmiCorpFinance23", "koditPlan26"],
+  "kodit-2025-tariff": ["kiepTariff25", "kiepUSChina25", "keximIndustry26"],
+  "kodit-2025-intrapreneur": ["koditPlan26", "wefPublicEntrepreneur25", "koditPublicInnovation"],
+  "kodit-rates-sme": ["koditRateRisk", "koditPlan26", "kcmiCorpFinance23"],
   "kodit-insolvency": ["koditCreditModel", "koditRateRisk"],
 
   // 예금보험공사·무역보험공사·산업은행 기출
-  "kdic-systemic": ["bokFsr22Dec", "bokFsr22", "kdicFedTightening26"],
-  "kdic-safeasset": ["bisSafeAssets25", "bisSafeHaven09", "bokFsr26"],
+  "kdic-systemic": ["bokFsr26", "bokFsr22Dec", "kdicFedTightening26"],
+  "kdic-safeasset": ["bisSafeAssets25", "bokFsr26", "bisSafeHaven09"],
   "kdic-social": ["kdicSocial", "kdicCSRWhitepaper", "kdicLimit25"],
   "ksure-fs": ["ksureCreditFAQ", "ksureCredit", "ksureInsuranceGuide"],
-  "kdb-2020-neuralink": ["oecdNeuroGov18", "unescoNeuro25", "kisdiBCI"],
-  "kdb-2020-pandemic": ["kdiCovid21", "kdiPostCovid23", "kdiDigitalTransition"],
-  "kdb-ai-jobs": ["bokAI26", "pwcAIJobs", "bokAI25"],
+  "kdb-2020-neuralink": ["unescoNeuro25", "oecdNeuroGov18", "kisdiBCI"],
+  "kdb-2020-pandemic": ["kdiPostCovid23", "kdiCovid21", "kdiDigitalTransition"],
+  "kdb-ai-jobs": ["bokAI26", "bokAI25", "pwcAIJobs"],
 
   // 추천 주제
   "rec-fx-overseas": ["bokOverseasFx", "bokFxExplain26", "bokFsr26"],
@@ -1034,6 +1059,30 @@ function updateStats() {
   el.readCount.textContent = Object.values(getReadState()).filter(Boolean).length;
 }
 
+function sourceTier(resource) {
+  const org = resource.org || "";
+  const policySources = [
+    "한국은행", "금융위원회", "금융감독원", "KDI", "대외경제정책연구원",
+    "국회예산정책처", "예금보험공사", "신용보증기금", "한국수출입은행",
+    "한국무역보험공사", "자본시장연구원", "정보통신정책연구원"
+  ];
+  if (policySources.some(name => org.includes(name))) return "policy";
+  if (["OECD", "BIS", "UNESCO"].some(name => org.includes(name))) return "international";
+  return "secondary";
+}
+
+function resourceLabel(resource, index) {
+  const tier = sourceTier(resource);
+  if (index === 0) {
+    if (tier === "policy") return "핵심 정책자료";
+    if (tier === "international") return "핵심 국제기구 자료";
+    return "핵심 자료";
+  }
+  if (tier === "policy") return "보완 정책자료";
+  if (tier === "international") return "보완 국제기구 자료";
+  return "심화 자료";
+}
+
 function renderResources(topic) {
   const keys = TOPIC_REPORTS[topic.id] || topic.resources || [];
   const resources = keys.map(key => RESOURCE_CATALOG[key]).filter(Boolean);
@@ -1047,7 +1096,7 @@ function renderResources(topic) {
     <article class="resource-item">
       <div class="resource-head">
         <div>
-          <div class="resource-kicker">${index === 0 ? "핵심 자료" : "보완 자료"} · ${escapeHtml(r.kind || "공식 자료")} · ${escapeHtml(r.date || "")}</div>
+          <div class="resource-kicker">${resourceLabel(r, index)} · ${escapeHtml(r.kind || "공식 자료")} · ${escapeHtml(r.date || "")}</div>
           <strong>${escapeHtml(r.title)}</strong>
           <div class="resource-org">${escapeHtml(r.org)}</div>
         </div>
