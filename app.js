@@ -185,10 +185,10 @@ const RESOURCE_CATALOG = {
 
   // ── 직접 연결: KDI·KIEP·수출입은행 ────────────────────────────
   kdiOutlook26: {
-    org: "KDI", date: "2026 상반기", kind: "경제전망",
-    title: "KDI 경제전망, 2026 상반기",
-    url: "https://www.kdi.re.kr/research/economy",
-    desc: "성장·물가·소비·투자·수출과 주요 대외 리스크를 종합적으로 점검합니다."
+    org: "KDI", date: "2026.02", kind: "경제전망",
+    title: "KDI 경제전망 | 수정, 2026년 2월",
+    url: "https://www.kdi.re.kr/research/economy?pub_no=19077",
+    desc: "2026년 성장·물가·소비·투자·수출과 미국 관세, 반도체 경기 등 주요 대외 리스크를 종합적으로 점검합니다."
   },
   kdiPension24: {
     org: "KDI", date: "2024", kind: "연구보고서",
@@ -293,6 +293,230 @@ const RESOURCE_CATALOG = {
     title: "공공화폐와 민간화폐의 역할 및 디지털화에 따른 구조 변화",
     url: "https://www.kdic.or.kr/ra/rschanls/selectKraiEcnmFncGnrlRptpDtl.do?contsSn=34536",
     desc: "중앙은행화폐·은행예금·민간 디지털 지급수단이 공존하는 화폐 시스템의 구조를 설명합니다."
+  },
+
+  // ── V3: 기출·추천 주제와 문항 단위로 직접 매칭한 자료 ─────────────
+  bokCarbonMacro21: {
+    org: "한국은행", date: "2021", kind: "BOK 이슈노트",
+    title: "기후변화 대응이 거시경제에 미치는 영향",
+    url: "https://www.bok.or.kr/portal/bbs/P0002353/view.do?nttId=10066555&searchCnd=1&searchKwd=%ED%83%84%EC%86%8C%EC%84%B8&depth2=201156&depth3=200433&date=&sdate=&edate=&sort=1&pageUnit=10&depth=200433&pageIndex=1&programType=newsData&menuNo=200433&oldMenuNo=200433",
+    desc: "탄소가격·탄소세 등 기후변화 대응정책이 성장·물가·산업구조 등 거시경제에 미치는 영향을 직접 분석합니다."
+  },
+  kdiCarbonTax: {
+    org: "KDI 경제교육·정보센터", date: "2024", kind: "국내연구자료",
+    title: "기후위기 대응을 위한 탄소세 역할 및 시사점 : 유럽국가의 운영사례를 중심으로",
+    url: "https://eiec.kdi.re.kr/policy/domesticView.do?ac=0000194926&pg=1&pp=20&search_txt=%ED%83%84%EC%86%8C%EC%84%B8&issus=&type=A&depth1=",
+    desc: "탄소세의 정책효과와 부담, 유럽 운영사례를 함께 다뤄 탄소세 찬반 논거를 정리하기 좋은 자료입니다."
+  },
+  bokPolarization26: {
+    org: "한국은행", date: "2026.06.11", kind: "BOK 이슈노트",
+    title: "우리 경제 가계 양극화의 실태와 파급영향",
+    url: "https://www.bok.or.kr/portal/bbs/P0002353/view.do?depth=200433&depth2=201156&depth3=200433&menuNo=200433&nttId=10098430&oldMenuNo=200433&pageIndex=1&pageUnit=10&programType=newsData&searchCnd=1&searchKwd=",
+    desc: "소득·자산 양극화의 실태, 세대 간 격차, 소비와 성장에 대한 파급효과를 직접 분석합니다."
+  },
+  bokAILaw24: {
+    org: "한국은행", date: "2024.03.29", kind: "한은금요강좌",
+    title: "인공지능 시대의 법, 제도, 윤리",
+    url: "https://www.bok.or.kr/portal/bbs/B0000217/view.do?menuNo=200144&nttId=10083330",
+    desc: "생성형 AI 시대의 법·제도·윤리 문제를 다뤄 대의민주주의·책임·규율 논점을 보완하기 좋습니다."
+  },
+  bokHousingAge26: {
+    org: "한국은행", date: "2026", kind: "BOK 이슈노트",
+    title: "주택가격 상승이 연령별 소비 및 후생에 미치는 영향",
+    url: "https://www.bok.or.kr/portal/bbs/P0002353/view.do?depth=200433&depth2=201156&depth3=200433&menuNo=200433&nttId=10096466&oldMenuNo=200433&pageIndex=1&pageUnit=10&programType=newsData&searchCnd=1&searchKwd=",
+    desc: "주택가격 상승이 세대별 소비·후생에 미치는 영향을 분석해 주거안정과 세대 형평 논거를 제공합니다."
+  },
+  bokHousingAsset22: {
+    org: "한국은행", date: "2022", kind: "BOK 이슈노트",
+    title: "자산으로서 우리나라 주택의 특징 및 시사점",
+    url: "https://www.bok.or.kr/portal/bbs/P0002353/view.do?menuNo=200433&nttId=10070647&pageIndex=1",
+    desc: "한국 가계에서 주택이 차지하는 자산 비중과 가격·보유 구조를 분석해 주거문제의 구조적 배경을 이해할 수 있습니다."
+  },
+  bokHousingRisk22: {
+    org: "한국은행", date: "2022", kind: "BOK 이슈노트",
+    title: "주택시장 리스크 평가",
+    url: "https://www.bok.or.kr/portal/bbs/P0002353/view.do?menuNo=200433&nttId=10072075",
+    desc: "주택가격·금리·가계부채를 연결해 주택시장 불균형과 리스크를 평가합니다."
+  },
+  bokHouseExpect25: {
+    org: "한국은행", date: "2025", kind: "BOK 이슈노트",
+    title: "주택가격 기대심리의 특징과 시사점",
+    url: "https://www.bok.or.kr/portal/bbs/P0002353/view.do?depth=200433&depth2=201156&depth3=200433&menuNo=200433&nttId=10091925&oldMenuNo=200433&pageIndex=1&pageUnit=10&programType=newsData&searchCnd=1&searchKwd=",
+    desc: "주택가격 기대가 실제 가격과 거래에 미치는 영향을 분석해 FOMO·군중심리 논제와 연결하기 좋습니다."
+  },
+  bokInflationPersist22: {
+    org: "한국은행", date: "2022", kind: "BOK 이슈노트",
+    title: "고인플레이션 지속가능성 점검",
+    url: "https://www.bok.or.kr/portal/bbs/P0002353/view.do?menuNo=200433&nttId=10072648",
+    desc: "고물가가 얼마나 지속될 수 있는지 수요·공급·기대 요인을 나눠 점검합니다."
+  },
+  bokInflationPolicy22: {
+    org: "한국은행", date: "2022", kind: "BOK 이슈노트",
+    title: "高인플레이션에 대응한 통화정책 운용",
+    url: "https://www.bok.or.kr/portal/bbs/P0002353/view.do?menuNo=200433&nttId=10070071",
+    desc: "높은 인플레이션 상황에서 중앙은행의 금리정책, 기대관리, 경기비용을 직접 다룹니다."
+  },
+  bokBaselStd: {
+    org: "한국은행", date: "바젤Ⅲ", kind: "국제금융규제 자료",
+    title: "바젤Ⅲ 기준서: 글로벌 자본 및 유동성 규제체계",
+    url: "https://www.bok.or.kr/portal/bbs/B0000257/view.do?menuNo=200327&nttId=166714",
+    desc: "바젤Ⅲ 자본·유동성 규제의 목적과 기준을 원문 수준에서 이해하기 위한 핵심 자료입니다."
+  },
+  bokFsr24: {
+    org: "한국은행", date: "2024.06", kind: "금융안정보고서",
+    title: "금융안정보고서 2024년 6월",
+    url: "https://www.bok.or.kr/portal/bbs/P0000593/view.do?menuNo=200068&nttId=10085314",
+    desc: "금융기관 복원력과 주요국 바젤Ⅲ 최종안 등 건전성 규제 관련 내용을 포함합니다."
+  },
+  bokRegionInheritance26: {
+    org: "한국은행", date: "2026", kind: "BOK 이슈노트",
+    title: "지역간 인구이동과 세대간 경제력 대물림",
+    url: "https://www.bok.or.kr/portal/bbs/P0002353/view.do?depth=200433&depth2=201156&depth3=200433&menuNo=200433&nttId=10096442&oldMenuNo=200433&pageIndex=1&pageUnit=10&programType=newsData&searchCnd=1&searchKwd=",
+    desc: "청년 이동과 부모 세대의 경제력, 지역 격차의 고착화를 직접 분석합니다."
+  },
+  bokAgingIneq23: {
+    org: "한국은행", date: "2023", kind: "BOK 이슈노트",
+    title: "우리나라의 인구고령화와 소득불평등",
+    url: "https://www.bok.or.kr/portal/bbs/P0002353/view.do?menuNo=200433&nttId=10077869",
+    desc: "인구고령화와 소득분배 변화를 연결해 고령화·양극화 논제를 함께 공부할 수 있습니다."
+  },
+  kdiSelfEmployed20: {
+    org: "KDI", date: "2020.12.31", kind: "연구보고서",
+    title: "자영업에 대한 종합적 분석과 정책제언",
+    url: "https://www.kdi.re.kr/research/subjects_view.jsp?pub_no=17140",
+    desc: "자영업의 규모·진입·퇴장·생산성·부채·정책지원까지 종합적으로 분석한 직접 자료입니다."
+  },
+  kdiWomen24: {
+    org: "KDI", date: "2024.04.16", kind: "KDI FOCUS",
+    title: "여성의 경력단절 우려와 출산율 감소",
+    url: "https://www.kdi.re.kr/research/focusView?pub_no=18306",
+    desc: "유자녀 여성의 경력단절 위험과 고용률 격차를 분석해 여성 고용 문제의 구조적 원인을 설명합니다."
+  },
+  kdiCovid21: {
+    org: "KDI", date: "2021", kind: "연구보고서",
+    title: "코로나19에 따른 경제사회 변화",
+    url: "https://www.kdi.re.kr/research/reportView?pub_no=17191",
+    desc: "팬데믹 이후 노동·산업·소비·사회구조의 변화를 종합적으로 분석합니다."
+  },
+  kdiPostCovid23: {
+    org: "KDI", date: "2023", kind: "연구보고서",
+    title: "코로나 이후의 거시경제적 과제와 대응방향",
+    url: "https://www.kdi.re.kr/research/reportView?pub_no=17926",
+    desc: "팬데믹 이후 물가·성장·노동·재정 등 거시경제의 구조적 과제를 정리합니다."
+  },
+  kdiDigitalTransition: {
+    org: "KDI", date: "연구보고서", kind: "디지털 전환",
+    title: "디지털 기반 성장을 위한 디지털 전환 정책과제",
+    url: "https://www.kdi.re.kr/research/reportView?pub_no=17620",
+    desc: "디지털 전환의 생산성 효과와 제도·산업정책 과제를 다룹니다."
+  },
+  kdiFourthIndustry18: {
+    org: "KDI 경제교육·정보센터", date: "2018", kind: "나라경제",
+    title: "4차 산업혁명 기술과 인간은 어떻게 공존할 것인가",
+    url: "https://eiec.kdi.re.kr/publish/naraView.do?cidx=11201&fcode=00002000040000100008&pg=1&pp=20&sel_month=01&sel_year=2018",
+    desc: "4차 산업혁명의 기술 변화와 인간·일자리·사회 제도의 공존 문제를 다룹니다."
+  },
+  keximBattery: {
+    org: "한국수출입은행", date: "산업연구", kind: "이차전지",
+    title: "글로벌 이차전지 공급망 현황과 국내 리스크 분석",
+    url: "https://eiec.kdi.re.kr/policy/domesticView.do?ac=0000179471",
+    desc: "이차전지 공급망, 원재료·국가 의존도, 국내 산업 리스크를 직접 분석합니다."
+  },
+  batteryExport: {
+    org: "산업·통상 연구자료", date: "산업분석", kind: "이차전지 수출",
+    title: "이차전지 수출 변동 요인과 향후 전개방향",
+    url: "https://eiec.kdi.re.kr/policy/domesticView.do?ac=0000183677&issus=O&pg=&pp=",
+    desc: "이차전지 수출의 변동 요인과 향후 경쟁·수요 구조를 분석한 직접 자료입니다."
+  },
+  kiepUSChina25: {
+    org: "대외경제정책연구원", date: "2025", kind: "연구보고서",
+    title: "미중 무역 분쟁과 통상정책 변화가 한국 경제에 미치는 영향",
+    url: "https://www.kiep.go.kr/gallery.es?act=view&bid=0001&list_no=11862&mid=a10101010000",
+    desc: "미중 통상갈등과 관세정책 변화가 한국 수출·산업·거시경제에 미치는 영향을 직접 분석합니다."
+  },
+  fscCryptoProtection24: {
+    org: "금융위원회", date: "2024.07.18", kind: "보도자료",
+    title: "가상자산이용자보호법 시행",
+    url: "https://www.fsc.go.kr/no010101/82682",
+    desc: "가상자산 이용자 예치금·불공정거래·감독체계 등 이용자 보호 제도의 핵심 내용을 공식적으로 설명합니다."
+  },
+  fscValueup24: {
+    org: "금융위원회", date: "2024.02", kind: "정책방안",
+    title: "기업 밸류업 지원방안",
+    url: "https://www.fsc.go.kr/no010101/81780",
+    desc: "기업가치 제고 계획, 공시, 인센티브, 밸류업 지수 등 프로그램의 핵심 구조를 직접 확인할 수 있습니다."
+  },
+  kcmiTreasury24: {
+    org: "자본시장연구원", date: "연구보고서", kind: "자기주식",
+    title: "주주가치 제고를 위한 자기주식 제도의 개선과제",
+    url: "https://www.kcmi.re.kr/report/report_view?report_no=1792",
+    desc: "자사주 취득·보유·처분·소각이 주주가치에 미치는 영향과 제도 개선방향을 직접 분석합니다."
+  },
+  kcmiTreasuryLaw26: {
+    org: "자본시장연구원", date: "2026", kind: "자본시장포커스",
+    title: "자기주식 제도 개선의 필요성과 상법 개정안의 주요 쟁점",
+    url: "https://www.kcmi.re.kr/publications/pub_detail_view?cno=6721",
+    desc: "자기주식 소각·처분 규율과 상법 개정의 주요 쟁점을 정리합니다."
+  },
+  fscMydataGuide21: {
+    org: "금융위원회", date: "2021.02.22", kind: "마이데이터 가이드라인",
+    title: "본인신용정보관리업(마이데이터) 운영 가이드라인",
+    url: "https://www.fsc.go.kr/no010101/75435",
+    desc: "스크래핑 방식에서 API 기반 정보전송으로 이동하는 구조, 데이터 이동권과 소비자 보호를 직접 설명합니다."
+  },
+  fscMydata2: {
+    org: "금융위원회", date: "2025", kind: "마이데이터 2.0",
+    title: "마이데이터가 더 편리한 내 손안의 금융 비서로 거듭납니다",
+    url: "https://www.fsc.go.kr/no010101/84780?curPage=1&srchBeginDt=2025-04-01&srchCtgry=&srchEndDt=2025-06-30&srchKey=all&srchText=",
+    desc: "마이데이터 정보 범위·이용자 편의·정보보호 개선방향을 다룹니다."
+  },
+  kisdiFakeNews: {
+    org: "정보통신정책연구원", date: "연구자료", kind: "허위조작정보",
+    title: "유럽연합의 허위조작정보 대응책 및 플랫폼 대응",
+    url: "https://www.kisdi.re.kr/report/fileView.do?arrMasterId=3934577&id=551755&key=m2101113025931",
+    desc: "가짜뉴스·허위조작정보와 플랫폼 신뢰, 규제 대응을 직접 다룹니다."
+  },
+  kisdiElectionAI: {
+    org: "정보통신정책연구원", date: "연구자료", kind: "AI·민주주의",
+    title: "허위정보 시대의 선거 개입과 인공지능",
+    url: "https://www.kisdi.re.kr/report/fileView.do?arrMasterId=3934550&id=1761276&key=m2101113025536",
+    desc: "AI·허위정보가 선거와 민주적 의사결정에 미치는 위험을 직접 다룹니다."
+  },
+  kisdiVirtualHuman: {
+    org: "정보통신정책연구원", date: "연구자료", kind: "가상인간",
+    title: "가상인간의 순기능과 역기능에 관한 이용자 인식 연구",
+    url: "https://library.kisdi.re.kr/%26/10110/contents/3934580?articleId=1161296&checkinId=2043349",
+    desc: "가상인간 활용의 편익과 위험에 대한 이용자 인식을 다뤄 찬반 논거를 직접 구성할 수 있습니다."
+  },
+  kisdiBCI: {
+    org: "정보통신정책연구원", date: "연구자료", kind: "BCI·VR/AR",
+    title: "포스트 코로나 시대의 핵심기술: VR/AR 산업과 규제 이슈",
+    url: "https://www.kisdi.re.kr/report/fileView.do?arrMasterId=3934550&id=552579&key=m2101113025536",
+    desc: "VR·AR 및 Brain-Computer Interface 등 인간-기계 인터페이스 기술과 규제 이슈를 다룹니다."
+  },
+  koditPublicInnovation: {
+    org: "신용보증기금", date: "연구자료", kind: "공공기관 혁신",
+    title: "공공기관 경영평가제도 운영방안 - 일자리 창출을 위한",
+    url: "https://www.kodit.co.kr/common/nttFileDownload.do?fileKey=de743c86f035fed5b553de735d6accea",
+    desc: "공공기관 혁신, 사내벤처와 기업가정신 관련 논의를 포함해 공공부문 조직혁신 논제의 보완 자료로 활용할 수 있습니다."
+  },
+  bokFsr22: {
+    org: "한국은행", date: "2022.06", kind: "금융안정보고서",
+    title: "금융안정보고서 2022년 6월",
+    url: "https://www.bok.or.kr/portal/bbs/P0000593/view.do?menuNo=200449&nttId=10071240",
+    desc: "가계부채·자산시장과 대출 부실 위험의 전이경로를 분석해 시스템리스크 논제에 직접 활용할 수 있습니다."
+  },
+  ksureCredit: {
+    org: "한국무역보험공사", date: "공식 업무안내", kind: "국외기업 신용조사",
+    title: "국외기업 신용조사",
+    url: "https://www.ksure.or.kr/rh-kr/cntnts/i-115/web.do",
+    desc: "무역보험 인수 전 수입자·거래상대방의 신용을 어떻게 조사·평가하는지 공식적으로 설명합니다."
+  },
+  ksureInsuranceGuide: {
+    org: "한국무역보험공사", date: "공식 안내자료", kind: "무역보험 제도",
+    title: "무역보험 제도 안내자료",
+    url: "https://www.ksure.or.kr/rh-kr/bbs/i-329/down.do?atfile_sn=1&bbs_id=1014&data_ty_cd=A&ntt_sn=38024",
+    desc: "수출보험의 담보위험, 인수·보상 구조와 신용위험 판단의 기본 틀을 확인할 수 있습니다."
   }
 };
 
@@ -373,54 +597,54 @@ const RECOMMENDED_TOPICS = [
 
 
 const TOPIC_REPORTS = {
-  // 한국은행
-  "bok-2020-fomo": ["bokStockWealth26", "bokMonetary26"],
+  // 한국은행 기출
+  "bok-2020-fomo": ["bokHouseExpect25", "bokHousingAge26", "bokStockWealth26"],
   "bok-2021-money": ["kdicMoney25", "bokCBDC24"],
   "bok-2022-pension": ["kdiPension24", "bokPopulationConsumption25"],
-  "bok-2022-housing": ["bokFsr26", "kdiHouseholdDemo25"],
-  "bok-2022-polarization": ["bokPopulationConsumption25", "kdiOutlook26"],
-  "bok-2023-region": ["bokRegion23", "bokRegion26"],
-  "bok-2024-ai-democracy": ["bokAI25", "bokAI26"],
-  "bok-2022-inflation": ["bokMonetary26", "kdiOutlook26"],
+  "bok-2022-housing": ["bokHousingAsset22", "bokHousingRisk22", "bokHousingAge26"],
+  "bok-2022-polarization": ["bokPolarization26", "bokAgingIneq23"],
+  "bok-2023-region": ["bokRegion23", "bokRegionInheritance26", "bokRegion26"],
+  "bok-2024-ai-democracy": ["bokAILaw24", "kisdiElectionAI", "bokAI25"],
+  "bok-2022-inflation": ["bokInflationPolicy22", "bokInflationPersist22", "bokMonetary26"],
   "bok-2023-household-debt": ["bokFsr26", "bokHousehold26", "kdiHouseholdDemo25"],
   "bok-2023-bankrun": ["kdicBankrun24", "kdicBankResolution24", "bokFsr26"],
-  "bok-2024-aging-business": ["bokPopulationConsumption25", "bokEmployment25"],
-  "bok-2024-climate": ["bokClimate21", "kdiCarbon24"],
+  "bok-2024-aging-business": ["bokPopulationConsumption25", "bokEmployment25", "bokAgingIneq23"],
+  "bok-2024-climate": ["bokClimate21", "bokCarbonMacro21", "kdiCarbon24"],
 
-  // 금융감독원
-  "fss-2025-carbon-tax": ["bokClimate21", "kdiCarbon24"],
-  "fss-basel3": ["bokFsr26", "kdicBankResolution24"],
+  // 금융감독원 기출
+  "fss-2025-carbon-tax": ["bokCarbonMacro21", "kdiCarbonTax", "bokClimate21"],
+  "fss-basel3": ["bokBaselStd", "bokFsr24"],
 
-  // 한국거래소
-  "krx-2019-ev": ["keximIndustry26", "kiepWorld26"],
+  // 한국거래소 기출
+  "krx-2019-ev": ["keximBattery", "batteryExport"],
   "krx-2019-export": ["kdiOutlook26", "keximIndustry26"],
-  "krx-2020-trade-war": ["kiepTariff25", "kiepWorld26"],
-  "krx-2020-selfemployed": ["kdiOutlook26", "bokMonetary26"],
-  "krx-2021-women": ["bokEmployment25", "bokPopulationConsumption25"],
-  "krx-2022-industry4": ["bokAI25", "bokAI26"],
-  "krx-2022-fakenews": ["bokAI25"],
-  "krx-2023-crypto": ["bokStablecoin25", "kcmiCrossCrypto26"],
-  "krx-2023-virtualhuman": ["bokAI25", "bokAI26"],
+  "krx-2020-trade-war": ["kiepUSChina25", "kiepTariff25"],
+  "krx-2020-selfemployed": ["kdiSelfEmployed20", "kdiOutlook26"],
+  "krx-2021-women": ["kdiWomen24", "bokEmployment25"],
+  "krx-2022-industry4": ["kdiFourthIndustry18", "kdiDigitalTransition", "bokAI26"],
+  "krx-2022-fakenews": ["kisdiFakeNews", "kisdiElectionAI"],
+  "krx-2023-crypto": ["fscCryptoProtection24", "bokStablecoin25", "kcmiCrossCrypto26"],
+  "krx-2023-virtualhuman": ["kisdiVirtualHuman", "bokAILaw24"],
   "krx-2024-shortselling": ["fscShortImprove24", "fscShort25"],
-  "krx-2024-valueup": ["kcmiValueup24", "kcmiValueup26"],
+  "krx-2024-valueup": ["fscValueup24", "kcmiValueup24", "kcmiValueup26"],
   "krx-2025-discount": ["kcmiValueup24", "kcmiGovernance24", "kcmiValueup26"],
-  "krx-2025-treasury": ["kcmiValueup26", "kcmiValueup24"],
+  "krx-2025-treasury": ["kcmiTreasury24", "kcmiTreasuryLaw26"],
 
-  // 신용보증기금
+  // 신용보증기금 기출
   "kodit-2025-project": ["koditCreditModel", "kcmiCorpFinance23"],
-  "kodit-2025-tariff": ["kiepTariff25", "keximIndustry26"],
-  "kodit-2025-intrapreneur": ["koditPlan26"],
+  "kodit-2025-tariff": ["kiepTariff25", "kiepUSChina25", "keximIndustry26"],
+  "kodit-2025-intrapreneur": ["koditPublicInnovation", "koditPlan26"],
   "kodit-rates-sme": ["koditRateRisk", "kcmiCorpFinance23", "koditPlan26"],
   "kodit-insolvency": ["koditCreditModel", "koditRateRisk"],
 
-  // 예금보험공사·무보·산은
-  "kdic-systemic": ["bokFsr26", "kdicBankrun24", "kdicBankResolution24"],
-  "kdic-safeasset": ["bokFsr26", "bokMonetary26"],
+  // 예금보험공사·무역보험공사·산업은행 기출
+  "kdic-systemic": ["bokFsr22", "kdicBankrun24", "kdicBankResolution24"],
+  "kdic-safeasset": ["bokMonetary26", "bokFsr26"],
   "kdic-social": ["kdicLimit25"],
-  "ksure-fs": ["koditCreditModel", "keximIndustry26"],
-  "kdb-2020-neuralink": ["bokAI25", "bokAI26"],
-  "kdb-2020-pandemic": ["kdiOutlook26", "kiepWorld26"],
-  "kdb-ai-jobs": ["bokAI26", "bokAI25"],
+  "ksure-fs": ["ksureCredit", "ksureInsuranceGuide", "koditCreditModel"],
+  "kdb-2020-neuralink": ["kisdiBCI", "bokAILaw24"],
+  "kdb-2020-pandemic": ["kdiCovid21", "kdiPostCovid23", "kdiDigitalTransition"],
+  "kdb-ai-jobs": ["bokAI26", "bokAI25", "kdiDigitalTransition"],
 
   // 추천 주제
   "rec-fx-overseas": ["bokOverseasFx", "bokFxExplain26", "bokFsr26"],
@@ -428,22 +652,22 @@ const TOPIC_REPORTS = {
   "rec-stablecoin": ["bokStablecoin25", "kcmiStableFx25", "kcmiStableTreasury25"],
   "rec-household-debt": ["bokFsr26", "bokHousehold26", "kdiHouseholdDemo25"],
   "rec-stock-wealth": ["bokStockWealth26", "bokMonetary26"],
-  "rec-governance": ["kcmiGovernance24", "kcmiValueup24", "kcmiValueup26"],
-  "rec-guidance": ["kcmiValueup26", "kcmiGovernance24"],
+  "rec-governance": ["kcmiGovernance24", "kcmiValueup24", "fscValueup24"],
+  "rec-guidance": ["kcmiValueup26", "fscValueup24"],
   "rec-shortselling-2026": ["fscShort25", "fscShortImprove24"],
   "rec-ai-labor": ["bokAI26", "bokAI25", "bokEmployment25"],
   "rec-ai-finance": ["fscAI24", "fscAirgap24", "bokAI26"],
-  "rec-data-scraping": ["fscAirgap24", "fscAI24"],
-  "rec-tariffs": ["kiepTariff25", "kiepWorld26", "keximIndustry26"],
-  "rec-semiconductor": ["keximSemi26", "keximIndustry26", "kiepWorld26"],
+  "rec-data-scraping": ["fscMydataGuide21", "fscMydata2", "fscAirgap24"],
+  "rec-tariffs": ["kiepTariff25", "kiepUSChina25", "kiepWorld26"],
+  "rec-semiconductor": ["keximSemi26", "keximIndustry26", "kdiOutlook26"],
   "rec-fx-hours": ["kcmiFxHours26", "bokFxExplain26"],
   "rec-deposit-limit": ["kdicLimit25", "kdicBankResolution24", "kdicBankrun24"],
   "rec-bank-resolution": ["kdicBankResolution24", "kdicBankrun24", "bokFsr26"],
   "rec-sme-credit": ["koditRateRisk", "koditCreditModel", "kcmiCorpFinance23"],
   "rec-pcbo": ["koditPcbo", "koditPlan26", "kcmiCorpFinance23"],
-  "rec-climate": ["bokClimate21", "kdiCarbon24"],
+  "rec-climate": ["bokClimate21", "bokCarbonMacro21", "kdiCarbon24"],
   "rec-carbon-border": ["kiepCbam26", "kiepCbamSme", "kdiCarbon24"],
-  "rec-lowbirth-region": ["bokRegion23", "bokRegion26", "bokPopulationConsumption25"],
+  "rec-lowbirth-region": ["bokRegionInheritance26", "bokRegion23", "bokPopulationConsumption25"],
   "rec-pension": ["kdiPension24", "bokPopulationConsumption25"],
   "rec-cbdc": ["bokCBDC24", "bokStablecoin25", "kcmiStableTreasury25"],
   "rec-capitalmarket-growth": ["kcmiSmallIB26", "kcmiUnicorn24", "kcmiCorpFinance23"]
@@ -624,7 +848,7 @@ function renderResources(topic) {
     <article class="resource-item">
       <div class="resource-head">
         <div>
-          <div class="resource-kicker">${escapeHtml(r.kind || "공식 자료")} · ${escapeHtml(r.date || "")}</div>
+          <div class="resource-kicker">${index === 0 ? "핵심 자료" : "보완 자료"} · ${escapeHtml(r.kind || "공식 자료")} · ${escapeHtml(r.date || "")}</div>
           <strong>${escapeHtml(r.title)}</strong>
           <div class="resource-org">${escapeHtml(r.org)}</div>
         </div>
